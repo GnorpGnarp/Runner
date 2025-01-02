@@ -1,47 +1,102 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Rendering;
 
-public class PlayerMovement : MonoBehaviour
+public class PlayerController : MonoBehaviour
 {
-    public float moveSpeed = 5f; // Movement speed
-    public float rotationSpeed = 700f; // Rotation speed
-    private Rigidbody rb;
+    public float moveSpeed = 2f; //Predkosc przesuwania gracza na boki
+
+    public Animator animator; //referencja do animatora
+
+    public int points = 0;
+
+    public GameObject shieldGameObject;
+
+    public bool playerHasShield = false;
+
+    public AudioClip jumpSound;
+    public AudioSource jumpAudioSource;
+
+    public AudioSource soundTrackAudioSource;
+    public AudioClip backgroundMusic;
+
+    public int level = 0;
+
 
     // Start is called before the first frame update
     void Start()
     {
-        // Get the Rigidbody component
-        rb = GetComponent<Rigidbody>();
-
-        // Make sure the Rigidbody is not kinematic
-        if (rb == null)
-        {
-            Debug.LogError("Rigidbody component is missing!");
-        }
+        shieldGameObject.SetActive(false);
+        playerHasShield = false;
     }
 
     // Update is called once per frame
     void Update()
     {
-        // Get input from horizontal (A/D or Left/Right arrow) and vertical (W/S or Up/Down arrow) keys
-        float moveX = Input.GetAxis("Horizontal");
-        float moveZ = Input.GetAxis("Vertical");
-
-        // Create a movement vector
-        Vector3 moveDirection = new Vector3(moveX, 0f, moveZ).normalized;
-
-        // Move the player using Rigidbody
-        if (moveDirection.magnitude >= 0.1f)
+        if (level == 0)
         {
-            // Apply movement
-            Vector3 movement = moveDirection * moveSpeed * Time.deltaTime;
-            rb.MovePosition(transform.position + movement);
+            if (Input.GetKey(KeyCode.A)) //Jezeli wcisniemy przycisk A
+            {
+                if (transform.position.x > -4f) // Jezeli pozycja gracza w osi X jest wiêksza od -4 to wykonaj to co wewnatrz     || oznacza "lub"
+                {
+                    //Wykonuje sie to jezeli warunek jest spe³niony
+                    transform.Translate(Vector3.left * Time.deltaTime * moveSpeed); //transform.Translate przesuwa obiekt o Vector
+                }
+                else // Jezeli warunek nie jest spelniony
+                {
+                    // Tutaj wykonuja sie te rzeczy
+                }
+            }
 
-            // Rotate the player to face the direction of movement
-            float targetAngle = Mathf.Atan2(moveDirection.x, moveDirection.z) * Mathf.Rad2Deg;
-            Quaternion targetRotation = Quaternion.Euler(0f, targetAngle, 0f);
-            transform.rotation = Quaternion.RotateTowards(transform.rotation, targetRotation, rotationSpeed * Time.deltaTime);
+            if (Input.GetKey(KeyCode.D))
+            {
+                if (transform.position.x < 4f)
+                {
+                    transform.Translate(Vector3.right * Time.deltaTime * moveSpeed);
+                }
+            }
+        }
+
+        if (level == 1)
+        {
+            if (Input.GetKey(KeyCode.A)) //Jezeli wcisniemy przycisk A
+            {
+                if (transform.position.x > -64f) // Jezeli pozycja gracza w osi X jest wiêksza od -4 to wykonaj to co wewnatrz     || oznacza "lub"
+                {
+                    //Wykonuje sie to jezeli warunek jest spe³niony
+                    transform.Translate(Vector3.left * Time.deltaTime * moveSpeed); //transform.Translate przesuwa obiekt o Vector
+                }
+                else // Jezeli warunek nie jest spelniony
+                {
+                    // Tutaj wykonuja sie te rzeczy
+                }
+            }
+
+            if (Input.GetKey(KeyCode.D))
+            {
+                if (transform.position.x < -56f)
+                {
+                    transform.Translate(Vector3.right * Time.deltaTime * moveSpeed);
+                }
+            }
+        }
+
+
+
+        if (Input.GetKeyDown(KeyCode.Space)) 
+        {
+            animator.Play("Jump"); //Animator ma w³¹czyc animacje ze stanu o nazwie "Jump"
+
+            if (jumpAudioSource.isPlaying) // sprawdzenie czy jumpAudioSource odtwarza jakis dzwiek
+            {
+                // Jezeli tak 
+            }
+            else
+            {
+                // jezeli nie 
+                jumpAudioSource.PlayOneShot(jumpSound);
+            }
         }
     }
 }
