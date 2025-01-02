@@ -119,7 +119,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 100}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 0
-  controlID: 38
+  controlID: 41
   draggingID: 0
 --- !u!114 &6
 MonoBehaviour:
@@ -145,7 +145,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 100}
   m_MaxSize: {x: 16192, y: 16192}
   vertical: 1
-  controlID: 39
+  controlID: 42
   draggingID: 0
 --- !u!114 &7
 MonoBehaviour:
@@ -171,7 +171,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 50}
   m_MaxSize: {x: 16192, y: 8096}
   vertical: 0
-  controlID: 40
+  controlID: 43
   draggingID: 0
 --- !u!114 &8
 MonoBehaviour:
@@ -238,7 +238,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 1
   m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: ConsoleWindow
+  m_Name: ProjectBrowser
   m_EditorClassIdentifier: 
   m_Children: []
   m_Position:
@@ -247,15 +247,15 @@ MonoBehaviour:
     y: 531.2
     width: 1135.2
     height: 191.59998
-  m_MinSize: {x: 101, y: 121}
-  m_MaxSize: {x: 4001, y: 4021}
-  m_ActualView: {fileID: 19}
+  m_MinSize: {x: 231, y: 271}
+  m_MaxSize: {x: 10001, y: 10021}
+  m_ActualView: {fileID: 18}
   m_Panes:
   - {fileID: 18}
   - {fileID: 19}
   - {fileID: 12}
-  m_Selected: 1
-  m_LastSelected: 0
+  m_Selected: 0
+  m_LastSelected: 1
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -412,7 +412,7 @@ MonoBehaviour:
     x: 195.2
     y: 73.6
     width: 937.99994
-    height: 506.2
+    height: 510.2
   m_SerializedDataModeController:
     m_DataMode: 0
     m_PreferredDataMode: 0
@@ -753,9 +753,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: -10.570098, y: -3.7669368, z: 13.83557}
+    m_Target: {x: 0.7640748, y: 0.9723487, z: 21.300854}
     speed: 2
-    m_Value: {x: -10.570098, y: -3.7669368, z: 13.83557}
+    m_Value: {x: 0.7640748, y: 0.9723487, z: 21.300854}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -801,13 +801,13 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: -0.2707924, y: -0.009542158, z: 0.002646147, w: -0.9626579}
+    m_Target: {x: -0.058166858, y: 0.021258362, z: -0.0013209892, w: -0.99815905}
     speed: 2
-    m_Value: {x: -0.27423742, y: -0.009531915, z: 0.0026803075, w: -0.96161103}
+    m_Value: {x: -0.059359882, y: 0.021255074, z: -0.0013463992, w: -0.99800944}
   m_Size:
-    m_Target: 24.565527
+    m_Target: 17.510956
     speed: 2
-    m_Value: 24.565527
+    m_Value: 16.756895
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -869,9 +869,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 
+      m_SelectedIDs: debcffff
       m_LastClickedID: 0
-      m_ExpandedIDs: 30fbffffe8590000
+      m_ExpandedIDs: 30fbfffffc590000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -959,8 +959,8 @@ MonoBehaviour:
     m_VAllowExceedBaseRangeMin: 1
     m_VAllowExceedBaseRangeMax: 1
     m_ScaleWithWindow: 0
-    m_HSlider: 1
-    m_VSlider: 1
+    m_HSlider: 0
+    m_VSlider: 0
     m_IgnoreScrollWheelUntilClicked: 0
     m_EnableMouseInput: 1
     m_EnableSliderZoomHorizontal: 0
@@ -973,18 +973,18 @@ MonoBehaviour:
       y: 21
       width: 937.99994
       height: 489.2
-    m_Scale: {x: 1.2759593, y: 1.2759593}
-    m_Translation: {x: 465.0504, y: 239.56184}
+    m_Scale: {x: 1.25, y: 1.25}
+    m_Translation: {x: 468.99997, y: 244.6}
     m_MarginLeft: 0
     m_MarginRight: 0
     m_MarginTop: 0
     m_MarginBottom: 0
     m_LastShownAreaInsideMargins:
       serializedVersion: 2
-      x: -364.47122
-      y: -187.75038
-      width: 735.1331
-      height: 383.39783
+      x: -375.19998
+      y: -195.68001
+      width: 750.39996
+      height: 391.36002
     m_MinimalGUI: 1
   m_defaultScale: 1
   m_LastWindowPixelSize: {x: 1172.4999, y: 637.75}
@@ -1038,7 +1038,7 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets
+    - Assets/SkySeries Freebie/FreebieHdri/Materials
     m_Globs: []
     m_OriginalText: 
     m_ImportLogFlags: 0
@@ -1046,16 +1046,16 @@ MonoBehaviour:
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets
+  - Assets/SkySeries Freebie/FreebieHdri/Materials
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\Users\cryfu\Documents\Github\Runner\Runner\Runner
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 79}
-    m_SelectedIDs: a05a0000
-    m_LastClickedID: 23200
-    m_ExpandedIDs: 00000000a05a0000aa5a0000ac5a0000b25a0000d45a0000bc5e00009263000000ca9a3bffffff7f
+    scrollPos: {x: 0, y: 137.40002}
+    m_SelectedIDs: e45d0000
+    m_LastClickedID: 24036
+    m_ExpandedIDs: 00000000d05a0000065b0000dc5b0000e45b000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1083,7 +1083,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000a05a0000
+    m_ExpandedIDs: 00000000d05a0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
