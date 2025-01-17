@@ -6,9 +6,9 @@ using UnityEngine.SceneManagement;
 public class CollisionDetect : MonoBehaviour
 {
     public PlayerController playerController;
-
+    public bool playerHasShield = false; // Shield flag
     public UIManager uiManager;
-
+    public GameObject shieldGameObject;
 
     // Start is called before the first frame update
     void Start()

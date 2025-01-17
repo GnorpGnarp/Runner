@@ -38,7 +38,7 @@ public class MetaController : MonoBehaviour
                 
                 playerTransform.position = secondStageStartPoint.position;
                 cameraTransform.position = secondStageCameraPosition.position;
-                playerController.level++;
+             
                 secondStageGroundController.startMove = true;
 
                 Destroy(gameObject);
