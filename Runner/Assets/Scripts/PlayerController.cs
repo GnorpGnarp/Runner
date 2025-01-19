@@ -38,7 +38,7 @@ public class PlayerController : MonoBehaviour
         {
             if (Input.GetKey(KeyCode.A)) //Jezeli wcisniemy przycisk A
             {
-                if (transform.position.x > -4f) // Jezeli pozycja gracza w osi X jest wiêksza od -4 to wykonaj to co wewnatrz     || oznacza "lub"
+                if (transform.position.x > -0.5f) // Jezeli pozycja gracza w osi X jest wiêksza od -4 to wykonaj to co wewnatrz     || oznacza "lub"
                 {
                     //Wykonuje sie to jezeli warunek jest spe³niony
                     transform.Translate(Vector3.left * Time.deltaTime * moveSpeed); //transform.Translate przesuwa obiekt o Vector
@@ -51,7 +51,7 @@ public class PlayerController : MonoBehaviour
 
             if (Input.GetKey(KeyCode.D))
             {
-                if (transform.position.x < 4f)
+                if (transform.position.x < 7f)
                 {
                     transform.Translate(Vector3.right * Time.deltaTime * moveSpeed);
                 }
