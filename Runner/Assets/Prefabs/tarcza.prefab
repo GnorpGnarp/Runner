@@ -76,8 +76,59 @@ PrefabInstance:
       propertyPath: m_Name
       value: tarcza
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: ec9acb265daf73d49a9cb7e7e8760b35, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: ec9acb265daf73d49a9cb7e7e8760b35, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 7365316082709037875}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: ec9acb265daf73d49a9cb7e7e8760b35, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 965399045042272923}
   m_SourcePrefab: {fileID: 100100000, guid: ec9acb265daf73d49a9cb7e7e8760b35, type: 3}
+--- !u!1 &2039812676017774572 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: ec9acb265daf73d49a9cb7e7e8760b35, type: 3}
+  m_PrefabInstance: {fileID: 1193373652715692733}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &7365316082709037875
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2039812676017774572}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 1
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 2.9279408, y: 2.6744132, z: 1.204624}
+  m_Center: {x: -0.020034468, y: 0.20168048, z: -0.10231176}
+--- !u!114 &965399045042272923
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2039812676017774572}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 86e752de5eff1ab479e5b0fcd81186c4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerController: {fileID: 0}
+  shieldGameObject: {fileID: 919132149155446097, guid: ec9acb265daf73d49a9cb7e7e8760b35, type: 3}
+  playerMaterial: {fileID: -6478536213147159724, guid: 910f58cb7dbe08a40a7e30118401cf56, type: 3}

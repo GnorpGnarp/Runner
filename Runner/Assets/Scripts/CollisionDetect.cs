@@ -10,46 +10,41 @@ public class CollisionDetect : MonoBehaviour
     public UIManager uiManager;
     public GameObject shieldGameObject;
 
+    public ShieldManager shieldManager; // Reference to ShieldManager
+
     // Start is called before the first frame update
     void Start()
     {
-        
+        // Optionally, find the ShieldManager if not assigned in the Inspector
+        if (shieldManager == null)
+        {
+            shieldManager = FindObjectOfType<ShieldManager>();
+        }
     }
 
     // Update is called once per frame
     void Update()
     {
-        
+
     }
 
-    private void OnCollisionEnter(Collision collision) //Metoda która na wejsciu w kolizje zostaje wykonana
+    private void OnTriggerEnter(Collider other)
     {
-        if (collision.gameObject.tag == "Obstacle") //Czy gameobject z ktorym doszlo do kolizji ma tag "Obstacle"
+        Debug.Log("Triggered with: " + other.gameObject.name);
+
+        if (other.gameObject.CompareTag("Obstacle"))
         {
-            Debug.Log("doszlo do kolizji z przeszkod¹"); //Debug.Log wyswietla nam informacje w konsoli
-
-            if (playerController.playerHasShield) //Jezeli gracz posiada tarcze (zmienna "playerHasShield = true)
+            if (playerController.playerHasShield)
             {
-                playerController.playerHasShield = false;   //Zmiana wartosci "PlayerHasShield" na fa³sz
-                playerController.shieldGameObject.SetActive(false); //Wy³¹czenie obiektu "kulki"
+                shieldManager.DeactivateShield(); // Deactivate shield when hitting an obstacle
                 uiManager.shieldIcon.enabled = false;
-
             }
             else
             {
-                SceneManager.LoadScene(SceneManager.GetActiveScene().name); //Scene Manager wczytuje scene ktora akutualnie jest aktywna
+                // Trigger game over UI
+                //uiManager.ShowGameOverUI();
+                Time.timeScale = 0; // Stops the game (optional)
             }
-        }
-
-        if (collision.gameObject.tag == "Shield")
-        {
-            Debug.Log("zebrano tarcze");
-            playerController.playerHasShield = true; //Zmiena wartosc zmiennej "playerHasShield" w skrypcie gracza na "prawda"
-            playerController.shieldGameObject.SetActive(true); //W³¹cza obiekt wizualizujacy tarcze (Kulka)
-
-            uiManager.shieldIcon.enabled = true;
-
-            Destroy(collision.gameObject);
         }
 
     }

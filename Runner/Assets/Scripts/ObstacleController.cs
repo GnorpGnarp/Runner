@@ -1,10 +1,9 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class ObstacleController : MonoBehaviour
 {
-    public PlayerController playerController;
+    public PlayerController playerController; // Reference to the player controller
+    public UIManager uiManager;
 
     // Start is called before the first frame update
     void Start()
@@ -12,13 +11,23 @@ public class ObstacleController : MonoBehaviour
         playerController = GameObject.Find("Player").GetComponent<PlayerController>();
     }
 
-    // Update is called once per frame
-    void Update()
+    // Handle obstacle collision
+    private void OnTriggerEnter(Collider other)
     {
-        if (transform.position.z < -2.5f) //Sprawdzamy czy pozycja kostki jest mniejsza niz -2.5 na osi Z
+        if (other.CompareTag("Player"))
         {
-            playerController.points = playerController.points + 1; //Dodajemy do zmiennej Points 1
-            Destroy(gameObject); //Niszczymy ten obiekt
+            if (playerController.playerHasShield)
+            {
+                // Player has shield, shield absorbs the obstacle
+                playerController.playerHasShield = false;
+                uiManager.shieldIcon.enabled = false; // Hide shield icon
+                Destroy(gameObject); // Destroy the obstacle
+            }
+            else
+            {
+                // Player doesn't have a shield, game over or damage logic
+                Time.timeScale = 0; // Stop the game (optional, you might trigger a game over UI)
+            }
         }
     }
 }
