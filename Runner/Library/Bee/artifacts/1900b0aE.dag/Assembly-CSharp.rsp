@@ -354,7 +354,6 @@
 -analyzer:"C:/Program Files/Unity/Hub/Editor/2022.3.51f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.SourceGenerators.dll"
 "Assets/Scripts/CollisionDetect.cs"
 "Assets/Scripts/GroundController.cs"
-"Assets/Scripts/HouseController.cs"
 "Assets/Scripts/MetaController.cs"
 "Assets/Scripts/ObstacleController.cs"
 "Assets/Scripts/PlayerController.cs"
