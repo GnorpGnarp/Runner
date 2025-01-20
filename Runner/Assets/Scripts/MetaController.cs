@@ -31,7 +31,7 @@ public class MetaController : MonoBehaviour
         {
             if (isExitGameMeta)
             {
-                manager.background.gameObject.SetActive(true);
+                //manager.background.gameObject.SetActive(true);
             }
             else
             {

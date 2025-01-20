@@ -12,20 +12,26 @@ public class UIManager : MonoBehaviour
     public TMP_Text backgroundPoints;
 
     public Image shieldIcon;
-
-    public Image background;
+    
 
     // Start is called before the first frame update
     void Start()
     {
         shieldIcon.enabled = false;
-        background.gameObject.SetActive(false);
+       
     }
 
     // Update is called once per frame
     void Update()
     {
-        playerPointsText.text = playerController.points.ToString(); //Konwertuje wartosc "Points" ktora jest liczb¹ ca³kowita ze skryptu gracza do postaci tekstu
+        playerPointsText.text = playerController.points.ToString(); // Converts "Points" from player controller to text
         backgroundPoints.text = playerController.points.ToString();
     }
+
+    // Add this method to check if the shield icon is enabled
+    public bool IsShieldIconEnabled()
+    {
+        return shieldIcon.enabled;
+    }
 }
+

@@ -25,7 +25,6 @@ public class ShieldManager : MonoBehaviour
             // Call the method to activate the shield for the player
             ActivateShield();
 
-           
             // Disable the MeshRenderer and Collider but keep the object active
             MeshRenderer meshRenderer = GetComponent<MeshRenderer>();
             Collider collider = GetComponent<Collider>();
@@ -70,19 +69,26 @@ public class ShieldManager : MonoBehaviour
         uiManager.shieldIcon.enabled = true;
         Debug.Log("Shield icon enabled.");
 
+        // Check if the shield icon is enabled (using the method we just added)
+        if (uiManager.IsShieldIconEnabled())
+        {
+            Debug.Log("The shield icon is currently enabled!");
+        }
+        else
+        {
+            Debug.Log("The shield icon is not enabled.");
+        }
+
         // Make the player transparent
         SetPlayerTransparency(true);
-
-      
 
         // Start the shield duration coroutine
         StartCoroutine(ShieldDuration());
     }
 
-
     private IEnumerator ShieldDuration()
     {
-        yield return new WaitForSeconds(10f); // Duration of the shield (in seconds)
+        yield return new WaitForSeconds(5f); // Duration of the shield (in seconds)
 
         // Deactivate the shield after the duration ends
         DeactivateShield();
@@ -102,7 +108,6 @@ public class ShieldManager : MonoBehaviour
         // After deactivating the shield, you can safely disable the GameObject if needed.
         this.gameObject.SetActive(false); // This can be done here, after the coroutine finishes.
     }
-
 
     void SetPlayerTransparency(bool isTransparent)
     {
