@@ -4,62 +4,149 @@ using UnityEngine;
 public class ShieldManager : MonoBehaviour
 {
     public GameObject shieldGameObject; // Reference to the shield GameObject
-    public float shieldDuration = 10f; // Duration the shield will last
-    private bool isShieldActive = false; // To track if the shield effect is active for the player
+    public UIManager uiManager; // Reference to the UIManager
     private PlayerController playerController; // Reference to the player controller
 
     void Start()
     {
-        // Initialize references
-        playerController = FindObjectOfType<PlayerController>(); // Get the player controller instance
+        playerController = FindObjectOfType<PlayerController>(); // Find the player controller
+        if (uiManager == null)
+        {
+            uiManager = FindObjectOfType<UIManager>(); // Find the UIManager if not assigned
+        }
     }
 
-    // Method to activate the shield for the player
+    private void OnTriggerEnter(Collider other)
+    {
+        if (other.gameObject.CompareTag("Player"))
+        {
+            Debug.Log("Shield collected!");
+
+            // Call the method to activate the shield for the player
+            ActivateShield();
+
+           
+            // Disable the MeshRenderer and Collider but keep the object active
+            MeshRenderer meshRenderer = GetComponent<MeshRenderer>();
+            Collider collider = GetComponent<Collider>();
+
+            if (meshRenderer != null)
+            {
+                meshRenderer.enabled = false; // Disable MeshRenderer
+            }
+
+            if (collider != null)
+            {
+                collider.enabled = false; // Disable Collider
+            }
+
+            // Log the GameObject's state after modifications
+            Debug.Log("Shield GameObject active after disabling mesh and collider: " + gameObject.activeSelf);
+        }
+    }
+
     public void ActivateShield()
     {
-        if (!isShieldActive) // Only activate the shield if it's not already active
+        // Ensure UIManager is assigned
+        if (uiManager == null)
         {
-            isShieldActive = true;
-            // Activate the shield effect for the player (this could involve setting transparency, invincibility, etc.)
-            playerController.playerHasShield = true; // Update the player state
-
-            // Start a coroutine to deactivate the shield after the specified duration
-            StartCoroutine(ShieldDuration());
+            Debug.LogError("UIManager is not assigned.");
+            return;
         }
-    }
 
-    // Coroutine to handle the shield duration
-    private IEnumerator ShieldDuration()
-    {
-        yield return new WaitForSeconds(shieldDuration); // Wait for the shield to expire
+        // Ensure the GameObject is active
+        Debug.Log("Shield GameObject active before activation: " + gameObject.activeSelf);
 
-        DeactivateShield(); // Deactivate the shield once time is up
-    }
-
-    // Method to deactivate the shield
-    public void DeactivateShield()
-    {
-        if (isShieldActive)
+        if (!gameObject.activeSelf)
         {
-            isShieldActive = false;
-            // Deactivate the shield visual effect (could involve transparency or invincibility logic)
-            playerController.playerHasShield = false; // Update player state
+            Debug.LogWarning("Shield GameObject is not active. Cannot activate shield.");
+            return;  // Return early if the object is not active.
         }
-    }
-
-    // Method to check if the shield is active for the player
-    public bool IsShieldActive()
-    {
-        return isShieldActive;
-    }
-
-    // Call this method when the player picks up the shield (shield in the world)
-    public void OnShieldPickup()
-    {
-        // Destroy the shield object from the world (since the player can’t pick it up again)
-        Destroy(shieldGameObject);
 
         // Activate the shield effect for the player
-        ActivateShield();
+        playerController.playerHasShield = true;
+
+        // Show shield icon on the UI
+        uiManager.shieldIcon.enabled = true;
+        Debug.Log("Shield icon enabled.");
+
+        // Make the player transparent
+        SetPlayerTransparency(true);
+
+      
+
+        // Start the shield duration coroutine
+        StartCoroutine(ShieldDuration());
+    }
+
+
+    private IEnumerator ShieldDuration()
+    {
+        yield return new WaitForSeconds(10f); // Duration of the shield (in seconds)
+
+        // Deactivate the shield after the duration ends
+        DeactivateShield();
+    }
+
+    public void DeactivateShield()
+    {
+        // Deactivate the shield effect
+        playerController.playerHasShield = false;
+
+        // Hide the shield icon on the UI
+        uiManager.shieldIcon.enabled = false;
+
+        // Reset the player's transparency (make the player opaque again)
+        SetPlayerTransparency(false);
+
+        // After deactivating the shield, you can safely disable the GameObject if needed.
+        this.gameObject.SetActive(false); // This can be done here, after the coroutine finishes.
+    }
+
+
+    void SetPlayerTransparency(bool isTransparent)
+    {
+        // Get the player's Renderer (assuming the player has a Renderer component like MeshRenderer)
+        Renderer playerRenderer = playerController.GetComponent<Renderer>();
+
+        if (playerRenderer != null)
+        {
+            Material material = playerRenderer.material;
+
+            if (isTransparent)
+            {
+                // Set the material to transparent (make the player see-through)
+                Color color = material.color;
+                color.a = 0.5f; // Set alpha to 50%
+                material.color = color;
+
+                // Modify shader properties for transparency
+                material.SetFloat("_Mode", 3); // Set shader to Transparent mode
+                material.SetInt("_SrcBlend", (int)UnityEngine.Rendering.BlendMode.SrcAlpha);
+                material.SetInt("_DstBlend", (int)UnityEngine.Rendering.BlendMode.OneMinusSrcAlpha);
+                material.SetInt("_ZWrite", 0);
+                material.DisableKeyword("_ALPHATEST_ON");
+                material.DisableKeyword("_ALPHABLEND_ON");
+                material.EnableKeyword("_ALPHAPREMULTIPLY_ON");
+                material.renderQueue = 3000;
+            }
+            else
+            {
+                // Reset to opaque (make the player fully visible)
+                Color color = material.color;
+                color.a = 1f; // Set alpha to 100% (fully opaque)
+                material.color = color;
+
+                // Reset shader to opaque mode
+                material.SetFloat("_Mode", 0); // Set shader to Opaque mode
+                material.SetInt("_SrcBlend", (int)UnityEngine.Rendering.BlendMode.One);
+                material.SetInt("_DstBlend", (int)UnityEngine.Rendering.BlendMode.Zero);
+                material.SetInt("_ZWrite", 1);
+                material.EnableKeyword("_ALPHATEST_ON");
+                material.EnableKeyword("_ALPHABLEND_ON");
+                material.DisableKeyword("_ALPHAPREMULTIPLY_ON");
+                material.renderQueue = -1;
+            }
+        }
     }
 }

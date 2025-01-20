@@ -10,9 +10,11 @@ public class ShieldPickupController : MonoBehaviour
     {
         if (other.CompareTag("Player"))
         {
+            Debug.Log("Shield activated!");
+
             shieldManager.ActivateShield(); // Activate the shield
             uiManager.shieldIcon.enabled = true; // Show the shield icon
-            Destroy(gameObject); // Destroy the shield object after pickup
+           
         }
     }
 }

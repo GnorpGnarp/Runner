@@ -25796,6 +25796,10 @@ PrefabInstance:
     m_TransformParent: {fileID: 1798341755}
     m_Modifications:
     - target: {fileID: 965399045042272923, guid: da8de2affb6ae484ab94079b477236fb, type: 3}
+      propertyPath: uiManager
+      value: 
+      objectReference: {fileID: 2051530145}
+    - target: {fileID: 965399045042272923, guid: da8de2affb6ae484ab94079b477236fb, type: 3}
       propertyPath: playerController
       value: 
       objectReference: {fileID: 1456373680}
@@ -36416,6 +36420,10 @@ PrefabInstance:
     m_TransformParent: {fileID: 1798341755}
     m_Modifications:
     - target: {fileID: 965399045042272923, guid: da8de2affb6ae484ab94079b477236fb, type: 3}
+      propertyPath: uiManager
+      value: 
+      objectReference: {fileID: 2051530145}
+    - target: {fileID: 965399045042272923, guid: da8de2affb6ae484ab94079b477236fb, type: 3}
       propertyPath: playerController
       value: 
       objectReference: {fileID: 1456373680}
@@ -37533,6 +37541,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1798341755}
     m_Modifications:
+    - target: {fileID: 965399045042272923, guid: da8de2affb6ae484ab94079b477236fb, type: 3}
+      propertyPath: uiManager
+      value: 
+      objectReference: {fileID: 2051530145}
     - target: {fileID: 965399045042272923, guid: da8de2affb6ae484ab94079b477236fb, type: 3}
       propertyPath: playerController
       value: 
