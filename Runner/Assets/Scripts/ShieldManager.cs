@@ -111,7 +111,6 @@ public class ShieldManager : MonoBehaviour
 
     void SetPlayerTransparency(bool isTransparent)
     {
-        // Get the player's Renderer (assuming the player has a Renderer component like MeshRenderer)
         Renderer playerRenderer = playerController.GetComponent<Renderer>();
 
         if (playerRenderer != null)
@@ -125,8 +124,6 @@ public class ShieldManager : MonoBehaviour
                 color.a = 0.5f; // Set alpha to 50%
                 material.color = color;
 
-                // Modify shader properties for transparency
-                material.SetFloat("_Mode", 3); // Set shader to Transparent mode
                 material.SetInt("_SrcBlend", (int)UnityEngine.Rendering.BlendMode.SrcAlpha);
                 material.SetInt("_DstBlend", (int)UnityEngine.Rendering.BlendMode.OneMinusSrcAlpha);
                 material.SetInt("_ZWrite", 0);
@@ -134,6 +131,8 @@ public class ShieldManager : MonoBehaviour
                 material.DisableKeyword("_ALPHABLEND_ON");
                 material.EnableKeyword("_ALPHAPREMULTIPLY_ON");
                 material.renderQueue = 3000;
+
+                material.SetFloat("_Mode", 3); // Set to Transparent mode (if using Standard Shader)
             }
             else
             {
@@ -142,8 +141,6 @@ public class ShieldManager : MonoBehaviour
                 color.a = 1f; // Set alpha to 100% (fully opaque)
                 material.color = color;
 
-                // Reset shader to opaque mode
-                material.SetFloat("_Mode", 0); // Set shader to Opaque mode
                 material.SetInt("_SrcBlend", (int)UnityEngine.Rendering.BlendMode.One);
                 material.SetInt("_DstBlend", (int)UnityEngine.Rendering.BlendMode.Zero);
                 material.SetInt("_ZWrite", 1);
@@ -151,7 +148,10 @@ public class ShieldManager : MonoBehaviour
                 material.EnableKeyword("_ALPHABLEND_ON");
                 material.DisableKeyword("_ALPHAPREMULTIPLY_ON");
                 material.renderQueue = -1;
+
+                material.SetFloat("_Mode", 0); // Set to Opaque mode (if using Standard Shader)
             }
         }
     }
+
 }
