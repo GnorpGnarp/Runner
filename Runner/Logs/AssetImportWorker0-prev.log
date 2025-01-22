@@ -15,7 +15,7 @@ C:/Users/cryfu/Documents/Github/Runner/Runner/Runner
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-55562
+51718
 Successfully changed project path to: C:/Users/cryfu/Documents/Github/Runner/Runner/Runner
 C:/Users/cryfu/Documents/Github/Runner/Runner/Runner
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -49,14 +49,14 @@ C:/Users/cryfu/Documents/Github/Runner/Runner/Runner
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [6132]  Target information:
+Player connection [14372]  Target information:
 
-Player connection [6132]  * "[IP] 192.168.101.146 [Port] 0 [Flags] 2 [Guid] 2856252296 [EditorId] 2856252296 [Version] 1048832 [Id] WindowsEditor(7,Edytuj) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [14372]  * "[IP] 192.168.101.146 [Port] 0 [Flags] 2 [Guid] 203402627 [EditorId] 203402627 [Version] 1048832 [Id] WindowsEditor(7,Edytuj) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [6132] Host joined multi-casting on [225.0.0.222:54997]...
-Player connection [6132] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [14372] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [14372] Host joined alternative multi-casting on [225.0.0.222:34997]...
 [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-Refreshing native plugins compatible for Editor in 10.78 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 11.69 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.3.51f1 (9f9d16c45e54)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.51f1/Editor/Data/Resources/UnitySubsystems
@@ -72,44 +72,44 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.51f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.51f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.51f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56396
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56900
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.51f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.008542 seconds.
-- Loaded All Assemblies, in  0.409 seconds
+Registered in 0.009909 seconds.
+- Loaded All Assemblies, in  0.459 seconds
 Native extension for WindowsStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.325 seconds
-Domain Reload Profiling: 732ms
-	BeginReloadAssembly (132ms)
+- Finished resetting the current domain, in  0.339 seconds
+Domain Reload Profiling: 796ms
+	BeginReloadAssembly (144ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (41ms)
-	RebuildNativeTypeToScriptingClass (15ms)
-	initialDomainReloadingComplete (68ms)
-	LoadAllAssembliesAndSetupDomain (150ms)
-		LoadAssemblies (129ms)
+	RebuildCommonClasses (43ms)
+	RebuildNativeTypeToScriptingClass (14ms)
+	initialDomainReloadingComplete (73ms)
+	LoadAllAssembliesAndSetupDomain (183ms)
+		LoadAssemblies (142ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (148ms)
-			TypeCache.Refresh (146ms)
-				TypeCache.ScanAssembly (131ms)
+		AnalyzeDomain (181ms)
+			TypeCache.Refresh (179ms)
+				TypeCache.ScanAssembly (160ms)
 			ScanForSourceGeneratedMonoScriptInfo (0ms)
 			ResolveRequiredComponents (0ms)
-	FinalizeReload (326ms)
+	FinalizeReload (340ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (272ms)
+		SetupLoadedEditorAssemblies (278ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (11ms)
-			SetLoadedEditorAssemblies (8ms)
+			InitializePlatformSupportModulesInManaged (12ms)
+			SetLoadedEditorAssemblies (9ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (2ms)
-			ProcessInitializeOnLoadAttributes (192ms)
-			ProcessInitializeOnLoadMethodAttributes (59ms)
+			BeforeProcessingInitializeOnLoad (3ms)
+			ProcessInitializeOnLoadAttributes (190ms)
+			ProcessInitializeOnLoadMethodAttributes (64ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -118,50 +118,50 @@ Domain Reload Profiling: 732ms
 Worker process is ready to serve import requests
 Caller must complete domain reload
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.718 seconds
+- Loaded All Assemblies, in  0.795 seconds
 Native extension for WindowsStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.679 seconds
-Domain Reload Profiling: 1395ms
-	BeginReloadAssembly (170ms)
+- Finished resetting the current domain, in  0.736 seconds
+Domain Reload Profiling: 1527ms
+	BeginReloadAssembly (191ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (6ms)
+		DisableScriptedObjects (7ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (27ms)
-	RebuildCommonClasses (39ms)
-	RebuildNativeTypeToScriptingClass (11ms)
-	initialDomainReloadingComplete (44ms)
-	LoadAllAssembliesAndSetupDomain (450ms)
-		LoadAssemblies (319ms)
+	RebuildCommonClasses (42ms)
+	RebuildNativeTypeToScriptingClass (13ms)
+	initialDomainReloadingComplete (55ms)
+	LoadAllAssembliesAndSetupDomain (489ms)
+		LoadAssemblies (364ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (227ms)
-			TypeCache.Refresh (203ms)
-				TypeCache.ScanAssembly (184ms)
-			ScanForSourceGeneratedMonoScriptInfo (17ms)
-			ResolveRequiredComponents (6ms)
-	FinalizeReload (680ms)
+		AnalyzeDomain (233ms)
+			TypeCache.Refresh (206ms)
+				TypeCache.ScanAssembly (186ms)
+			ScanForSourceGeneratedMonoScriptInfo (20ms)
+			ResolveRequiredComponents (5ms)
+	FinalizeReload (737ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (515ms)
+		SetupLoadedEditorAssemblies (568ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (7ms)
-			SetLoadedEditorAssemblies (3ms)
+			InitializePlatformSupportModulesInManaged (8ms)
+			SetLoadedEditorAssemblies (5ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (63ms)
-			ProcessInitializeOnLoadAttributes (408ms)
-			ProcessInitializeOnLoadMethodAttributes (24ms)
-			AfterProcessingInitializeOnLoad (10ms)
+			BeforeProcessingInitializeOnLoad (69ms)
+			ProcessInitializeOnLoadAttributes (450ms)
+			ProcessInitializeOnLoadMethodAttributes (27ms)
+			AfterProcessingInitializeOnLoad (9ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (9ms)
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
-Refreshing native plugins compatible for Editor in 4.74 ms, found 3 plugins.
+		AwakeInstancesAfterBackupRestoration (8ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
+Refreshing native plugins compatible for Editor in 3.86 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3124 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 19 unused Assets / (55.2 KB). Loaded Objects now: 3619.
-Memory consumption went from 136.2 MB to 136.1 MB.
-Total: 4.252900 ms (FindLiveObjects: 0.363800 ms CreateObjectMapping: 0.359600 ms MarkObjects: 3.355200 ms  DeleteObjects: 0.172900 ms)
+Unloading 3125 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 19 unused Assets / (54.9 KB). Loaded Objects now: 3620.
+Memory consumption went from 135.9 MB to 135.9 MB.
+Total: 3.722900 ms (FindLiveObjects: 0.277900 ms CreateObjectMapping: 0.324800 ms MarkObjects: 3.002300 ms  DeleteObjects: 0.116300 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
@@ -179,821 +179,97 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 126958.213366 seconds.
-  path: Assets/Donwloaded materials/Medieval_Buildings_Modular/Textures/H_A_Wall_Normal.png
-  artifactKey: Guid(d46392acdee04464c9e7fb3f64489de8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Donwloaded materials/Medieval_Buildings_Modular/Textures/H_A_Wall_Normal.png using Guid(d46392acdee04464c9e7fb3f64489de8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: '671e494294ce43bab488d8138827b3e2') in 0.098670 seconds
+  Time since last request: 190712.270822 seconds.
+  path: Assets/Scripts/ColliderFollowPlayer.cs
+  artifactKey: Guid(76a932ccdf5fbc44eaa4ed97eb0ddb63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/ColliderFollowPlayer.cs using Guid(76a932ccdf5fbc44eaa4ed97eb0ddb63) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'bcdb8303df624a5059f1a804e6f63765') in 0.002613 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
+Number of asset objects unloaded after import = 0
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000038 seconds.
-  path: Assets/Donwloaded materials/Medieval_Buildings_Modular/Textures/H_A_Wall_Brick_MetallicSmoothness.png
-  artifactKey: Guid(3fc3207ea358c304cbf0620345a39937) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Donwloaded materials/Medieval_Buildings_Modular/Textures/H_A_Wall_Brick_MetallicSmoothness.png using Guid(3fc3207ea358c304cbf0620345a39937) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: '45ca1230938fabd9c430bf8e06012725') in 0.011589 seconds
+  Time since last request: 179.051599 seconds.
+  path: Assets/Scripts/ObstacleController.cs
+  artifactKey: Guid(5e977ed3232feab4286e96f92b16eb23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/ObstacleController.cs using Guid(5e977ed3232feab4286e96f92b16eb23) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '9cd041c0d83e3858a296af1eea7c97c4') in 0.000860 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
+Number of asset objects unloaded after import = 0
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/Donwloaded materials/Medieval_Buildings_Modular/Show/Lightmap-10_comp_dir.png
-  artifactKey: Guid(932e273578da5e14d86b571af8b5cde2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Donwloaded materials/Medieval_Buildings_Modular/Show/Lightmap-10_comp_dir.png using Guid(932e273578da5e14d86b571af8b5cde2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: '97bced070ea010d931f3433445a3890a') in 0.009049 seconds
+  Time since last request: 9.784868 seconds.
+  path: Assets/Scripts/UIManager.cs
+  artifactKey: Guid(0d53f48268029934e8c6e0f8ef5c3a38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/UIManager.cs using Guid(0d53f48268029934e8c6e0f8ef5c3a38) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '60827f47abb23a4b4a2cec8d3d2a7072') in 0.000686 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
+Number of asset objects unloaded after import = 0
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000014 seconds.
-  path: Assets/Donwloaded materials/Medieval_Buildings_Modular/Show/Lightmap-18_comp_light.exr
-  artifactKey: Guid(619c2845b22ba6544904280660113bc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Donwloaded materials/Medieval_Buildings_Modular/Show/Lightmap-18_comp_light.exr using Guid(619c2845b22ba6544904280660113bc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: '6b100f6dad3116d6d8766b47e81f30b9') in 0.015007 seconds
+  Time since last request: 6736.550520 seconds.
+  path: Assets/Scripts/PlayerController.cs
+  artifactKey: Guid(08af22c84005dd448af7aa15a5fc9aa2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/PlayerController.cs using Guid(08af22c84005dd448af7aa15a5fc9aa2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '986f0b6c346a870fa843a939f8c15741') in 0.002548 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
+Number of asset objects unloaded after import = 0
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/Donwloaded materials/Medieval_Buildings_Modular/Show/Lightmap-22_comp_dir.png
-  artifactKey: Guid(1240618ca79536d4a9061924844c39d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Donwloaded materials/Medieval_Buildings_Modular/Show/Lightmap-22_comp_dir.png using Guid(1240618ca79536d4a9061924844c39d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: 'aff102711c81ba13e1e95f64886add44') in 0.008749 seconds
+  Time since last request: 504.771322 seconds.
+  path: Assets/Scripts/AvoidedObstacleCounter.cs
+  artifactKey: Guid(74d16a8c47d3a9048914e7b5ac7fc8a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/AvoidedObstacleCounter.cs using Guid(74d16a8c47d3a9048914e7b5ac7fc8a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'be93136ac32e1070d7db6dfa2f205df7') in 0.001838 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/Donwloaded materials/Medieval_Buildings_Modular/Show/Lightmap-25_comp_dir.png
-  artifactKey: Guid(43269ac75acd8f04f9e0b7295731e51a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Donwloaded materials/Medieval_Buildings_Modular/Show/Lightmap-25_comp_dir.png using Guid(43269ac75acd8f04f9e0b7295731e51a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: '2ba671b2528f1499c695f18fa78762ec') in 0.011317 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Donwloaded materials/Medieval_Buildings_Modular/Textures/H_A_Wall_Albedo.png
-  artifactKey: Guid(4984adc2e9e5ca44ca4123b8924559b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Donwloaded materials/Medieval_Buildings_Modular/Textures/H_A_Wall_Albedo.png using Guid(4984adc2e9e5ca44ca4123b8924559b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: '86b7355bff33edee4c3084f06043922e') in 0.008476 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/Donwloaded materials/Medieval_Buildings_Modular/Textures/H_A_Wall_Brick_Normal.png
-  artifactKey: Guid(5ad87fe14654e68408f016cc23e8cd69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Donwloaded materials/Medieval_Buildings_Modular/Textures/H_A_Wall_Brick_Normal.png using Guid(5ad87fe14654e68408f016cc23e8cd69) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: 'd9473a8b6a31d871382de039d0045711') in 0.010500 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/Donwloaded materials/Medieval_Buildings_Modular/Show/Lightmap-7_comp_light.exr
-  artifactKey: Guid(77571c070013bac439f0580d7bf77473) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Donwloaded materials/Medieval_Buildings_Modular/Show/Lightmap-7_comp_light.exr using Guid(77571c070013bac439f0580d7bf77473) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: 'bcb9be958fda1960f6cdd62e166c02ac') in 0.012688 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Donwloaded materials/Medieval_Buildings_Modular/Show/Lightmap-18_comp_shadowmask.png
-  artifactKey: Guid(5c6e2479bb4516d4dbfad6ce8be0cc2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Donwloaded materials/Medieval_Buildings_Modular/Show/Lightmap-18_comp_shadowmask.png using Guid(5c6e2479bb4516d4dbfad6ce8be0cc2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: 'a04f5bd7e781bb0be084908ff9010712') in 0.008090 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000014 seconds.
-  path: Assets/Donwloaded materials/Medieval_Buildings_Modular/Textures/Roof_Wall_Wood_Albedo.png
-  artifactKey: Guid(03587515976f3e74486640b297777267) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Donwloaded materials/Medieval_Buildings_Modular/Textures/Roof_Wall_Wood_Albedo.png using Guid(03587515976f3e74486640b297777267) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: '03616a2caddc28a4834989e592f1a305') in 0.010592 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/Donwloaded materials/Medieval_Buildings_Modular/Show/Lightmap-12_comp_shadowmask.png
-  artifactKey: Guid(72fa93bf193a75442b464c6bcfa22a41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Donwloaded materials/Medieval_Buildings_Modular/Show/Lightmap-12_comp_shadowmask.png using Guid(72fa93bf193a75442b464c6bcfa22a41) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: '820fa9a142dba44f42ad111e102a4aa9') in 0.012765 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Donwloaded materials/Medieval_Buildings_Modular/Show/Lightmap-5_comp_shadowmask.png
-  artifactKey: Guid(bb815e936c020304ebd6a6fc79f5d39b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Donwloaded materials/Medieval_Buildings_Modular/Show/Lightmap-5_comp_shadowmask.png using Guid(bb815e936c020304ebd6a6fc79f5d39b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: 'b5177b2cf8c7547b83845a2d779fde22') in 0.010516 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/Donwloaded materials/Medieval_Buildings_Modular/Show/Lightmap-13_comp_light.exr
-  artifactKey: Guid(3960a831a6f69bc46a3438d9868aa529) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Donwloaded materials/Medieval_Buildings_Modular/Show/Lightmap-13_comp_light.exr using Guid(3960a831a6f69bc46a3438d9868aa529) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: 'ce87cea77efbee6a5035aa289b8d11f8') in 0.011648 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Donwloaded materials/Medieval_Buildings_Modular/Show/Lightmap-9_comp_light.exr
-  artifactKey: Guid(39d775e351b14c846bef85bd0b314b6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Donwloaded materials/Medieval_Buildings_Modular/Show/Lightmap-9_comp_light.exr using Guid(39d775e351b14c846bef85bd0b314b6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: 'bd8def195686cd9b5dadd5cab948c426') in 0.009438 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/Donwloaded materials/Medieval_Buildings_Modular/Textures/Door_MetallicSmoothness.png
-  artifactKey: Guid(583757d3458b1024d979fc4037bfc869) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Donwloaded materials/Medieval_Buildings_Modular/Textures/Door_MetallicSmoothness.png using Guid(583757d3458b1024d979fc4037bfc869) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: '95365632a6dc5089c6762fd53a1bd278') in 0.010047 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/Donwloaded materials/Medieval_Buildings_Modular/Show/Lightmap-8_comp_dir.png
-  artifactKey: Guid(7098cd826eccac14b97bd0f33d3ee5ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Donwloaded materials/Medieval_Buildings_Modular/Show/Lightmap-8_comp_dir.png using Guid(7098cd826eccac14b97bd0f33d3ee5ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: '3b9994090f57d3f8d425200f1bc8342b') in 0.014249 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Donwloaded materials/Medieval_Buildings_Modular/Textures/H_B_Brick_Normal.png
-  artifactKey: Guid(9277fef09fd837a4688bf5761272bf6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Donwloaded materials/Medieval_Buildings_Modular/Textures/H_B_Brick_Normal.png using Guid(9277fef09fd837a4688bf5761272bf6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: '7d38bcfcb948a9fab092099c22afdea8') in 0.009948 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/Donwloaded materials/Medieval_Buildings_Modular/Show/Lightmap-14_comp_dir.png
-  artifactKey: Guid(ba3f936993e875545886f0cb618ecb91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Donwloaded materials/Medieval_Buildings_Modular/Show/Lightmap-14_comp_dir.png using Guid(ba3f936993e875545886f0cb618ecb91) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: '9b82a1d4f2d8266fdfc6a8c9999cb4b2') in 0.011244 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/Donwloaded materials/Medieval_Buildings_Modular/Show/Lightmap-30_comp_light.exr
-  artifactKey: Guid(ecd5d4d1cf6a4054caa0170d7f692b61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Donwloaded materials/Medieval_Buildings_Modular/Show/Lightmap-30_comp_light.exr using Guid(ecd5d4d1cf6a4054caa0170d7f692b61) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: '5748619025ff84d5665beda85e2cb4d2') in 0.010022 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000035 seconds.
-  path: Assets/Donwloaded materials/Medieval_Buildings_Modular/Textures/Door_Frame_Albedo.png
-  artifactKey: Guid(0c71fad112f8b76478e30a3a4a86dec5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Donwloaded materials/Medieval_Buildings_Modular/Textures/Door_Frame_Albedo.png using Guid(0c71fad112f8b76478e30a3a4a86dec5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: 'f98c4d8fc9c0e1fd9e4d50dd873ae092') in 0.009261 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/Donwloaded materials/Medieval_Buildings_Modular/Textures/Gallows_G_Stairs_Normal.png
-  artifactKey: Guid(1b029a41011ce1c45a6d75d7b856524d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Donwloaded materials/Medieval_Buildings_Modular/Textures/Gallows_G_Stairs_Normal.png using Guid(1b029a41011ce1c45a6d75d7b856524d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: '5260bfa88199278925ef7efc330cdc43') in 0.015089 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/Donwloaded materials/Medieval_Buildings_Modular/Show/Lightmap-21_comp_light.exr
-  artifactKey: Guid(45f0434c59bdfa94da492ea39adc5b3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Donwloaded materials/Medieval_Buildings_Modular/Show/Lightmap-21_comp_light.exr using Guid(45f0434c59bdfa94da492ea39adc5b3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: 'b74abd6fb6a211120eb406aab4f8b1a3') in 0.008421 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/Donwloaded materials/Medieval_Buildings_Modular/Show/Lightmap-0_comp_light.exr
-  artifactKey: Guid(7c9db3671f4202d4d9df56a50c6379ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Donwloaded materials/Medieval_Buildings_Modular/Show/Lightmap-0_comp_light.exr using Guid(7c9db3671f4202d4d9df56a50c6379ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: '68101627950aac31f01e7d2bcad83663') in 0.013429 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000013 seconds.
-  path: Assets/Donwloaded materials/Medieval_Buildings_Modular/Show/Lightmap-4_comp_dir.png
-  artifactKey: Guid(ccc523f707d32a14c99482df58c0c8a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Donwloaded materials/Medieval_Buildings_Modular/Show/Lightmap-4_comp_dir.png using Guid(ccc523f707d32a14c99482df58c0c8a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: '90f399fd0cfd229a3a604b819d5f0169') in 0.009221 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/Donwloaded materials/Medieval_Buildings_Modular/Show/Lightmap-16_comp_light.exr
-  artifactKey: Guid(03621f3c82041a749b48d9a88aa21ad5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Donwloaded materials/Medieval_Buildings_Modular/Show/Lightmap-16_comp_light.exr using Guid(03621f3c82041a749b48d9a88aa21ad5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: '31c0ad6cbf2c46e93babe05d7d7287c0') in 0.012200 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/Donwloaded materials/Medieval_Buildings_Modular/Show/Lightmap-23_comp_shadowmask.png
-  artifactKey: Guid(0f557cc374683b049a4bf21fc89570ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Donwloaded materials/Medieval_Buildings_Modular/Show/Lightmap-23_comp_shadowmask.png using Guid(0f557cc374683b049a4bf21fc89570ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: '8ea42e091c3a9d0004097c9c90655687') in 0.009021 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Donwloaded materials/Medieval_Buildings_Modular/Show/Lightmap-24_comp_light.exr
-  artifactKey: Guid(63ee5d7861fc4a345b885da3d91a9f88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Donwloaded materials/Medieval_Buildings_Modular/Show/Lightmap-24_comp_light.exr using Guid(63ee5d7861fc4a345b885da3d91a9f88) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: 'db91b4950e2aa2c6b98765e6762ddfca') in 0.010314 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/Donwloaded materials/Medieval_Buildings_Modular/Show/Lightmap-16_comp_shadowmask.png
-  artifactKey: Guid(53b87f2a5bb1f0340885c11f5735f3c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Donwloaded materials/Medieval_Buildings_Modular/Show/Lightmap-16_comp_shadowmask.png using Guid(53b87f2a5bb1f0340885c11f5735f3c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: 'ba1fa5e58e09374d32cc2fab90165626') in 0.009648 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/Donwloaded materials/Medieval_Buildings_Modular/Show/Lightmap-15_comp_dir.png
-  artifactKey: Guid(3957b8131c65a624491e99cfacae6acd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Donwloaded materials/Medieval_Buildings_Modular/Show/Lightmap-15_comp_dir.png using Guid(3957b8131c65a624491e99cfacae6acd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: '829833932910ebe85865a3eeec74b8da') in 0.010889 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000058 seconds.
-  path: Assets/Donwloaded materials/Medieval_Buildings_Modular/Textures/Wood_tiled_normal.png
-  artifactKey: Guid(38347c150cdf6654cb91c3dcd6bbcc3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Donwloaded materials/Medieval_Buildings_Modular/Textures/Wood_tiled_normal.png using Guid(38347c150cdf6654cb91c3dcd6bbcc3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: '2bcd44d0bd591a56b2708626f21f148e') in 0.011669 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/Donwloaded materials/Medieval_Buildings_Modular/Textures/Wagon_Wheel_Front_Albedo.png
-  artifactKey: Guid(da311e15bfacce64aad0110cc40f56ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Donwloaded materials/Medieval_Buildings_Modular/Textures/Wagon_Wheel_Front_Albedo.png using Guid(da311e15bfacce64aad0110cc40f56ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: 'eb125a52d6be290b102905a1b1398d9e') in 0.011719 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000014 seconds.
-  path: Assets/Donwloaded materials/Medieval_Buildings_Modular/Show/Lightmap-24_comp_dir.png
-  artifactKey: Guid(e2a0e0b2b4b486444ab2640d66d7c493) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Donwloaded materials/Medieval_Buildings_Modular/Show/Lightmap-24_comp_dir.png using Guid(e2a0e0b2b4b486444ab2640d66d7c493) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: '0941cc98d59710745b46f629078b0aab') in 0.009202 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Donwloaded materials/Medieval_Buildings_Modular/Show/Lightmap-10_comp_light.exr
-  artifactKey: Guid(ef1fcb17d06cfc240b01a294aa59c8fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Donwloaded materials/Medieval_Buildings_Modular/Show/Lightmap-10_comp_light.exr using Guid(ef1fcb17d06cfc240b01a294aa59c8fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: '46ba72c97b7de93dfd8d3016ca3376d5') in 0.010332 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/Donwloaded materials/Medieval_Buildings_Modular/Textures/Roof_Floor_Gate_Stairs_AlbedoTransparency.png
-  artifactKey: Guid(bfc1861737c92af4680dad92348a5482) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Donwloaded materials/Medieval_Buildings_Modular/Textures/Roof_Floor_Gate_Stairs_AlbedoTransparency.png using Guid(bfc1861737c92af4680dad92348a5482) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: 'e68e95cd8a9ba8c03e575d889c3489a4') in 0.007831 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/Donwloaded materials/Medieval_Buildings_Modular/Show/Lightmap-31_comp_shadowmask.png
-  artifactKey: Guid(0dd440ec5e38a0e4da8606f7338a0872) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Donwloaded materials/Medieval_Buildings_Modular/Show/Lightmap-31_comp_shadowmask.png using Guid(0dd440ec5e38a0e4da8606f7338a0872) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: 'b9923cec28f9fd305bfbad5182f96701') in 0.009091 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/Donwloaded materials/Medieval_Buildings_Modular/Show/Lightmap-6_comp_dir.png
-  artifactKey: Guid(3cc7fd2358beb62469a3333530d198b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Donwloaded materials/Medieval_Buildings_Modular/Show/Lightmap-6_comp_dir.png using Guid(3cc7fd2358beb62469a3333530d198b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: 'f417b937437dc9e15faa16729677eb90') in 0.009141 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/Donwloaded materials/Medieval_Buildings_Modular/Show/Lightmap-30_comp_dir.png
-  artifactKey: Guid(d3b33858f1133e44bb33286f66f296fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Donwloaded materials/Medieval_Buildings_Modular/Show/Lightmap-30_comp_dir.png using Guid(d3b33858f1133e44bb33286f66f296fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: '7d60ca0ba5f5bb5c9f7170536ab71377') in 0.010926 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/Donwloaded materials/Medieval_Buildings_Modular/Textures/Roof_Floor_Gate_Stairs_MetallicSmoothness.png
-  artifactKey: Guid(d5ace38c26a2e504596451965dc3ae3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Donwloaded materials/Medieval_Buildings_Modular/Textures/Roof_Floor_Gate_Stairs_MetallicSmoothness.png using Guid(d5ace38c26a2e504596451965dc3ae3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: '3ba083424907d53c86792d2a19f3ce02') in 0.012210 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/Donwloaded materials/Medieval_Buildings_Modular/Show/Lightmap-15_comp_shadowmask.png
-  artifactKey: Guid(2da5c05b88be1cf44ad2776cedf3036a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Donwloaded materials/Medieval_Buildings_Modular/Show/Lightmap-15_comp_shadowmask.png using Guid(2da5c05b88be1cf44ad2776cedf3036a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: '17c046ab62cadbdbec029a6576d41c6b') in 0.009500 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000037 seconds.
-  path: Assets/Donwloaded materials/Medieval_Buildings_Modular/Show/Lightmap-5_comp_dir.png
-  artifactKey: Guid(33e49d831e2ea9a42be4d275f38af60d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Donwloaded materials/Medieval_Buildings_Modular/Show/Lightmap-5_comp_dir.png using Guid(33e49d831e2ea9a42be4d275f38af60d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: '3e004c8b8a1faf6f9de17e18752795ae') in 0.010044 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000036 seconds.
-  path: Assets/Donwloaded materials/Medieval_Buildings_Modular/Textures/Wagon_W_Base_Albedo.png
-  artifactKey: Guid(85a2c6b392912994fbad35f82e1b91a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Donwloaded materials/Medieval_Buildings_Modular/Textures/Wagon_W_Base_Albedo.png using Guid(85a2c6b392912994fbad35f82e1b91a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: '0232b2f21ee5d7a51f38e4529053d8e2') in 0.012716 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/Donwloaded materials/Medieval_Buildings_Modular/Show/Lightmap-13_comp_dir.png
-  artifactKey: Guid(fdafdbfa798ef4a49b91c4aea5b9f939) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Donwloaded materials/Medieval_Buildings_Modular/Show/Lightmap-13_comp_dir.png using Guid(fdafdbfa798ef4a49b91c4aea5b9f939) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: '7c312b5be04c3d1cb1843a9b09c158d6') in 0.009774 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/Donwloaded materials/Medieval_Buildings_Modular/Show/Lightmap-26_comp_shadowmask.png
-  artifactKey: Guid(7812f25da73f87f4593670f2e2d30f10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Donwloaded materials/Medieval_Buildings_Modular/Show/Lightmap-26_comp_shadowmask.png using Guid(7812f25da73f87f4593670f2e2d30f10) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: 'd5a792fde1067a6ccd19dc19fc2ebdc2') in 0.009326 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/Donwloaded materials/Medieval_Buildings_Modular/Show/Lightmap-12_comp_light.exr
-  artifactKey: Guid(b667abe06019e934d9423ecd01f3d974) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Donwloaded materials/Medieval_Buildings_Modular/Show/Lightmap-12_comp_light.exr using Guid(b667abe06019e934d9423ecd01f3d974) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: 'b1e2e12021adb3edf1a74ff355fb361c') in 0.015286 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/Donwloaded materials/Medieval_Buildings_Modular/Show/Lightmap-16_comp_dir.png
-  artifactKey: Guid(d74b7fa139fa6e54fa56af4d86843d80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Donwloaded materials/Medieval_Buildings_Modular/Show/Lightmap-16_comp_dir.png using Guid(d74b7fa139fa6e54fa56af4d86843d80) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: '767509719e21695c760f02345e063371') in 0.010085 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/Donwloaded materials/Medieval_Buildings_Modular/Show/Lightmap-20_comp_shadowmask.png
-  artifactKey: Guid(63c6b2a44c55d494c8567a707c161778) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Donwloaded materials/Medieval_Buildings_Modular/Show/Lightmap-20_comp_shadowmask.png using Guid(63c6b2a44c55d494c8567a707c161778) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: '3bca25a061b52fca5768cb2dfe2ae58c') in 0.012901 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/Donwloaded materials/Medieval_Buildings_Modular/Textures/Window_DoorR_Normal.png
-  artifactKey: Guid(a6e1594fbb2a1c341b71e0f40b6bba41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Donwloaded materials/Medieval_Buildings_Modular/Textures/Window_DoorR_Normal.png using Guid(a6e1594fbb2a1c341b71e0f40b6bba41) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: '6d3eabd8c3891a5cd7965efdcd1aa36d') in 0.013070 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/Donwloaded materials/Medieval_Buildings_Modular/Textures/Shelter_Top_Construction_Floor_Normal.png
-  artifactKey: Guid(8b7ab266597bd064281ab24485b15a2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Donwloaded materials/Medieval_Buildings_Modular/Textures/Shelter_Top_Construction_Floor_Normal.png using Guid(8b7ab266597bd064281ab24485b15a2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: 'a02b3e5b8a6bde07d302cc3fd31e053e') in 0.013296 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/Donwloaded materials/Medieval_Buildings_Modular/Textures/Window_DoorL_Albedo.png
-  artifactKey: Guid(f7d93095c405d9e43845bee4d1424f9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Donwloaded materials/Medieval_Buildings_Modular/Textures/Window_DoorL_Albedo.png using Guid(f7d93095c405d9e43845bee4d1424f9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: '66b22d2f483b8440a612935dae4f3ee8') in 0.009033 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/Donwloaded materials/Medieval_Buildings_Modular/Show/Lightmap-1_comp_dir.png
-  artifactKey: Guid(8bddc650b3cdd104cb3b4fec214f33bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Donwloaded materials/Medieval_Buildings_Modular/Show/Lightmap-1_comp_dir.png using Guid(8bddc650b3cdd104cb3b4fec214f33bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: 'e4cb9ee55527516f318fb56d1656c7f5') in 0.010010 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000052 seconds.
-  path: Assets/Donwloaded materials/Medieval_Buildings_Modular/Show/Lightmap-9_comp_dir.png
-  artifactKey: Guid(5d6ca682e841d6a47a6f3fa1a4f40757) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Donwloaded materials/Medieval_Buildings_Modular/Show/Lightmap-9_comp_dir.png using Guid(5d6ca682e841d6a47a6f3fa1a4f40757) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: '8d80bd4dacff0313bb7dccb20d663371') in 0.012695 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/Donwloaded materials/Medieval_Buildings_Modular/Textures/H_B_Normal.png
-  artifactKey: Guid(35406a6d96d95d94d964af7d00ec584e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Donwloaded materials/Medieval_Buildings_Modular/Textures/H_B_Normal.png using Guid(35406a6d96d95d94d964af7d00ec584e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: 'f83494be9dc75f2be2e45f9ffb51aa57') in 0.010244 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/Donwloaded materials/Medieval_Buildings_Modular/Show/Lightmap-4_comp_light.exr
-  artifactKey: Guid(1eac80bd508a837479d6af9bef8ac8b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Donwloaded materials/Medieval_Buildings_Modular/Show/Lightmap-4_comp_light.exr using Guid(1eac80bd508a837479d6af9bef8ac8b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: 'd5d92bc3dd846b7d47b31cad85057082') in 0.011718 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/Donwloaded materials/Medieval_Buildings_Modular/Textures/Wagon_W_Base_MetallicSmoothness.png
-  artifactKey: Guid(e06ac0a2ed2ff4442996f3dbf5c351af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Donwloaded materials/Medieval_Buildings_Modular/Textures/Wagon_W_Base_MetallicSmoothness.png using Guid(e06ac0a2ed2ff4442996f3dbf5c351af) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: 'aae2e513074d25352fd6b51883adc918') in 0.012983 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/Donwloaded materials/Medieval_Buildings_Modular/Show/Lightmap-15_comp_light.exr
-  artifactKey: Guid(ebc8b70fce603e24aaded3972f059bbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Donwloaded materials/Medieval_Buildings_Modular/Show/Lightmap-15_comp_light.exr using Guid(ebc8b70fce603e24aaded3972f059bbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: '646bc311a02b38a6cbe70e38b46d35b1') in 0.010817 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/Donwloaded materials/Medieval_Buildings_Modular/Show/Lightmap-19_comp_dir.png
-  artifactKey: Guid(ce921c371d3e61446aa6c33b016b7e90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Donwloaded materials/Medieval_Buildings_Modular/Show/Lightmap-19_comp_dir.png using Guid(ce921c371d3e61446aa6c33b016b7e90) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: '3f0bbeec248b74ada7df8b42753fd847') in 0.011619 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/Donwloaded materials/Medieval_Buildings_Modular/Show/Lightmap-0_comp_shadowmask.png
-  artifactKey: Guid(19312ece365f55044bf17ab80066d6ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Donwloaded materials/Medieval_Buildings_Modular/Show/Lightmap-0_comp_shadowmask.png using Guid(19312ece365f55044bf17ab80066d6ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: 'fef884ee19af7442388fa3dffc383a5c') in 0.011411 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/Donwloaded materials/Medieval_Buildings_Modular/Textures/Wagon_W_Controler_MetallicSmoothness.png
-  artifactKey: Guid(4f146aff1e11f1047a88fb655e0eed66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Donwloaded materials/Medieval_Buildings_Modular/Textures/Wagon_W_Controler_MetallicSmoothness.png using Guid(4f146aff1e11f1047a88fb655e0eed66) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: 'b2cb8bb71cbaaf092015e6d82224a88f') in 0.014029 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/Donwloaded materials/Medieval_Buildings_Modular/Textures/Door_Normal.png
-  artifactKey: Guid(a24b0013ef1a0164da7f525396b00342) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Donwloaded materials/Medieval_Buildings_Modular/Textures/Door_Normal.png using Guid(a24b0013ef1a0164da7f525396b00342) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: 'ec359976b5bfc0377c5e4e4bf71eb239') in 0.009997 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/Donwloaded materials/Medieval_Buildings_Modular/Show/Lightmap-7_comp_dir.png
-  artifactKey: Guid(9d0bebb2ebe00bf42b0a2d01bd089bb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Donwloaded materials/Medieval_Buildings_Modular/Show/Lightmap-7_comp_dir.png using Guid(9d0bebb2ebe00bf42b0a2d01bd089bb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: 'a17132215827505e09b83f5953466b2b') in 0.010754 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000048 seconds.
-  path: Assets/Donwloaded materials/Medieval_Buildings_Modular/Show/Lightmap-9_comp_shadowmask.png
-  artifactKey: Guid(ee7ab4575e4e36248a774c3c9c4e807e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Donwloaded materials/Medieval_Buildings_Modular/Show/Lightmap-9_comp_shadowmask.png using Guid(ee7ab4575e4e36248a774c3c9c4e807e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: '8499c2df0ec66cb779d3078edcb47c49') in 0.008515 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000014 seconds.
-  path: Assets/Donwloaded materials/Medieval_Buildings_Modular/Textures/Door_Albedo.png
-  artifactKey: Guid(0ff32ea7306d7e9499450ec92c2d4cc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Donwloaded materials/Medieval_Buildings_Modular/Textures/Door_Albedo.png using Guid(0ff32ea7306d7e9499450ec92c2d4cc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: '92dc6b180e67756edd53303af0d94006') in 0.009111 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/Donwloaded materials/Medieval_Buildings_Modular/Textures/Wagon_Wheel_Front_Normal.png
-  artifactKey: Guid(dde7bee61243ceb47808e6376c258d70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Donwloaded materials/Medieval_Buildings_Modular/Textures/Wagon_Wheel_Front_Normal.png using Guid(dde7bee61243ceb47808e6376c258d70) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: 'f3fc7805054a4b72fc7636ec9885557d') in 0.014920 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000032 seconds.
-  path: Assets/Donwloaded materials/Medieval_Buildings_Modular/Show/Lightmap-1_comp_light.exr
-  artifactKey: Guid(b658490fd7ed0ba41ae565574948e1b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Donwloaded materials/Medieval_Buildings_Modular/Show/Lightmap-1_comp_light.exr using Guid(b658490fd7ed0ba41ae565574948e1b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: '48090b9e0e8556b2685a8fbb3f16fe49') in 0.008555 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/Donwloaded materials/Medieval_Buildings_Modular/Textures/Gallows_G_Floor_Normal.png
-  artifactKey: Guid(635834ed9f4c3024d9cb999bb5f7512f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Donwloaded materials/Medieval_Buildings_Modular/Textures/Gallows_G_Floor_Normal.png using Guid(635834ed9f4c3024d9cb999bb5f7512f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: '0c497f12b5e0accbd75ce94a17d261c0') in 0.023088 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/TextMesh Pro/Sprites/EmojiOne.png
-  artifactKey: Guid(dffef66376be4fa480fb02b19edbe903) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TextMesh Pro/Sprites/EmojiOne.png using Guid(dffef66376be4fa480fb02b19edbe903) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: '536ece9b0ca238bbe63d82cf39c679c3') in 0.009447 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Donwloaded materials/Medieval_Buildings_Modular/Textures/Window_Glass_Albedo.png
-  artifactKey: Guid(1c18fe5eabcb5b247a57b5f40cd65faf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Donwloaded materials/Medieval_Buildings_Modular/Textures/Window_Glass_Albedo.png using Guid(1c18fe5eabcb5b247a57b5f40cd65faf) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: 'd136d39b6de607a87d4d303391ebb733') in 0.010083 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/Donwloaded materials/Medieval_Buildings_Modular/Show/Lightmap-2_comp_shadowmask.png
-  artifactKey: Guid(1835c9cb1dc28f246a6024df98838218) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Donwloaded materials/Medieval_Buildings_Modular/Show/Lightmap-2_comp_shadowmask.png using Guid(1835c9cb1dc28f246a6024df98838218) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: 'b14d4098fbeaf204f5e1dc29283d9eda') in 0.009241 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/Donwloaded materials/Medieval_Buildings_Modular/Show/Lightmap-14_comp_light.exr
-  artifactKey: Guid(d12c07a79dcab1f4c8e61f6e2505fe98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Donwloaded materials/Medieval_Buildings_Modular/Show/Lightmap-14_comp_light.exr using Guid(d12c07a79dcab1f4c8e61f6e2505fe98) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: '917fb1c0c856745d39fea2f77d66c335') in 0.009467 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/Donwloaded materials/Medieval_Buildings_Modular/Textures/Gallows_G_Floor_MetallicSmoothness.png
-  artifactKey: Guid(58ab019c34f67964fba1b9866f2ad1e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Donwloaded materials/Medieval_Buildings_Modular/Textures/Gallows_G_Floor_MetallicSmoothness.png using Guid(58ab019c34f67964fba1b9866f2ad1e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: 'a15af0463e1dda20d0a640c84f2a174d') in 0.013469 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000036 seconds.
-  path: Assets/Donwloaded materials/Medieval_Buildings_Modular/Show/Lightmap-23_comp_light.exr
-  artifactKey: Guid(f0376c04520776a4fae7148284af593d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Donwloaded materials/Medieval_Buildings_Modular/Show/Lightmap-23_comp_light.exr using Guid(f0376c04520776a4fae7148284af593d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: '39e713aba32850593a5823900f248d31') in 0.010573 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/Donwloaded materials/Medieval_Buildings_Modular/Show/Lightmap-2_comp_light.exr
-  artifactKey: Guid(05b23bbdb529c1641989509ea331d23a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Donwloaded materials/Medieval_Buildings_Modular/Show/Lightmap-2_comp_light.exr using Guid(05b23bbdb529c1641989509ea331d23a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: '24e3c269b671fbc0be57e66dbf896f87') in 0.010596 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/Donwloaded materials/Medieval_Buildings_Modular/Textures/H_B_Brick_MetallicSmoothness.png
-  artifactKey: Guid(a6265cd77db0612418e88eccd7a5fdd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Donwloaded materials/Medieval_Buildings_Modular/Textures/H_B_Brick_MetallicSmoothness.png using Guid(a6265cd77db0612418e88eccd7a5fdd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: 'b6046a11379c04837c6eacbb8a110c74') in 0.009150 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000033 seconds.
-  path: Assets/Donwloaded materials/Medieval_Buildings_Modular/Show/Lightmap-17_comp_shadowmask.png
-  artifactKey: Guid(fdedcb6e1a2357943992b767784770c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Donwloaded materials/Medieval_Buildings_Modular/Show/Lightmap-17_comp_shadowmask.png using Guid(fdedcb6e1a2357943992b767784770c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: '5dd1dc441505c00ca5f20700c823ae93') in 0.011987 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Donwloaded materials/Medieval_Buildings_Modular/Textures/H_B_MetallicSmoothness.png
-  artifactKey: Guid(b776b29e2e28fb840811101a38931737) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Donwloaded materials/Medieval_Buildings_Modular/Textures/H_B_MetallicSmoothness.png using Guid(b776b29e2e28fb840811101a38931737) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: '1cb12ed1cf374c38526ca66484e86e8c') in 0.009839 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/Donwloaded materials/Medieval_Buildings_Modular/Show/Lightmap-11_comp_shadowmask.png
-  artifactKey: Guid(2d0445008784bc04ca4213c7d583f11f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Donwloaded materials/Medieval_Buildings_Modular/Show/Lightmap-11_comp_shadowmask.png using Guid(2d0445008784bc04ca4213c7d583f11f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: '8be42d91b7eb451c68833abd16d38c37') in 0.009955 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
+Number of asset objects unloaded after import = 0
 ========================================================================
 Received Prepare
 Caller must complete domain reload
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.441 seconds
+- Loaded All Assemblies, in  0.937 seconds
 Native extension for WindowsStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.063 seconds
-Domain Reload Profiling: 1501ms
-	BeginReloadAssembly (168ms)
+- Finished resetting the current domain, in  1.910 seconds
+Domain Reload Profiling: 2845ms
+	BeginReloadAssembly (382ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (4ms)
+		DisableScriptedObjects (14ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (32ms)
-	RebuildCommonClasses (31ms)
-	RebuildNativeTypeToScriptingClass (11ms)
-	initialDomainReloadingComplete (29ms)
-	LoadAllAssembliesAndSetupDomain (199ms)
-		LoadAssemblies (281ms)
+		CreateAndSetChildDomain (159ms)
+	RebuildCommonClasses (37ms)
+	RebuildNativeTypeToScriptingClass (17ms)
+	initialDomainReloadingComplete (41ms)
+	LoadAllAssembliesAndSetupDomain (458ms)
+		LoadAssemblies (532ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (16ms)
-			TypeCache.Refresh (6ms)
-				TypeCache.ScanAssembly (0ms)
-			ScanForSourceGeneratedMonoScriptInfo (0ms)
-			ResolveRequiredComponents (8ms)
-	FinalizeReload (1064ms)
+		AnalyzeDomain (56ms)
+			TypeCache.Refresh (21ms)
+				TypeCache.ScanAssembly (1ms)
+			ScanForSourceGeneratedMonoScriptInfo (16ms)
+			ResolveRequiredComponents (16ms)
+	FinalizeReload (1910ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (540ms)
+		SetupLoadedEditorAssemblies (572ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (6ms)
-			SetLoadedEditorAssemblies (4ms)
+			InitializePlatformSupportModulesInManaged (10ms)
+			SetLoadedEditorAssemblies (5ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (71ms)
-			ProcessInitializeOnLoadAttributes (421ms)
-			ProcessInitializeOnLoadMethodAttributes (28ms)
-			AfterProcessingInitializeOnLoad (10ms)
+			BeforeProcessingInitializeOnLoad (81ms)
+			ProcessInitializeOnLoadAttributes (418ms)
+			ProcessInitializeOnLoadMethodAttributes (42ms)
+			AfterProcessingInitializeOnLoad (16ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (8ms)
-Refreshing native plugins compatible for Editor in 4.95 ms, found 3 plugins.
+		AwakeInstancesAfterBackupRestoration (12ms)
+Script is not up to date after domain reload: guid(74d16a8c47d3a9048914e7b5ac7fc8a0) path("Assets/Scripts/AvoidedObstacleCounter.cs") state(2)
+Refreshing native plugins compatible for Editor in 21.07 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3099 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 14 unused Assets / (28.5 KB). Loaded Objects now: 3630.
-Memory consumption went from 135.6 MB to 135.6 MB.
-Total: 4.281700 ms (FindLiveObjects: 0.330100 ms CreateObjectMapping: 0.353600 ms MarkObjects: 3.540200 ms  DeleteObjects: 0.056900 ms)
+Unloading 3100 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 14 unused Assets / (28.5 KB). Loaded Objects now: 3623.
+Memory consumption went from 130.9 MB to 130.8 MB.
+Total: 7.044500 ms (FindLiveObjects: 2.256200 ms CreateObjectMapping: 0.404400 ms MarkObjects: 4.310000 ms  DeleteObjects: 0.072700 ms)
 
 Prepare: number of updated asset objects reloaded= 0
 AssetImportParameters requested are different than current active one (requested -> active):
@@ -1001,6 +277,7 @@ AssetImportParameters requested are different than current active one (requested
   custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:scripting/monoscript/fileName/AvoidedObstacleCounter.cs: 569869b4b508c2232fa022106ee713de -> 
   custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
   custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
   custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
@@ -1010,13 +287,526 @@ AssetImportParameters requested are different than current active one (requested
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/precompiled-assembly-types:Assembly-CSharp: 0766c132bcf4a0125021fa0d8c4e0897 -> 7264056c74508b87110f76072e2a34f6
 ========================================================================
-Received Import Request.
-  Time since last request: 45.276532 seconds.
-  path: Assets/3dMOdels/PLayer/m1.mat
-  artifactKey: Guid(a2a32bbe04b323a4e985a10f71c41ff8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3dMOdels/PLayer/m1.mat using Guid(a2a32bbe04b323a4e985a10f71c41ff8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: '80c1b878591a6ee0b276c76418d5c43f') in 0.094022 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
+Received Prepare
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.600 seconds
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.186 seconds
+Domain Reload Profiling: 1782ms
+	BeginReloadAssembly (191ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (36ms)
+	RebuildCommonClasses (55ms)
+	RebuildNativeTypeToScriptingClass (17ms)
+	initialDomainReloadingComplete (48ms)
+	LoadAllAssembliesAndSetupDomain (284ms)
+		LoadAssemblies (379ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (22ms)
+			TypeCache.Refresh (8ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (7ms)
+			ResolveRequiredComponents (7ms)
+	FinalizeReload (1187ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (603ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (8ms)
+			SetLoadedEditorAssemblies (5ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (75ms)
+			ProcessInitializeOnLoadAttributes (481ms)
+			ProcessInitializeOnLoadMethodAttributes (26ms)
+			AfterProcessingInitializeOnLoad (8ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (10ms)
+Refreshing native plugins compatible for Editor in 5.89 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3102 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 14 unused Assets / (28.5 KB). Loaded Objects now: 3627.
+Memory consumption went from 131.1 MB to 131.1 MB.
+Total: 2.968000 ms (FindLiveObjects: 0.370400 ms CreateObjectMapping: 0.431600 ms MarkObjects: 2.126600 ms  DeleteObjects: 0.037800 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:scripting/monoscript/fileName/AvoidedObstacleCounter.cs: 569869b4b508c2232fa022106ee713de -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/precompiled-assembly-types:Assembly-CSharp: 0766c132bcf4a0125021fa0d8c4e0897 -> 7264056c74508b87110f76072e2a34f6
+========================================================================
+Received Prepare
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.544 seconds
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.120 seconds
+Domain Reload Profiling: 1662ms
+	BeginReloadAssembly (180ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (7ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (32ms)
+	RebuildCommonClasses (68ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (33ms)
+	LoadAllAssembliesAndSetupDomain (248ms)
+		LoadAssemblies (331ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (22ms)
+			TypeCache.Refresh (9ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (6ms)
+			ResolveRequiredComponents (5ms)
+	FinalizeReload (1121ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (466ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (7ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (64ms)
+			ProcessInitializeOnLoadAttributes (359ms)
+			ProcessInitializeOnLoadMethodAttributes (23ms)
+			AfterProcessingInitializeOnLoad (9ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (9ms)
+Refreshing native plugins compatible for Editor in 3.85 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3102 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 14 unused Assets / (28.5 KB). Loaded Objects now: 3630.
+Memory consumption went from 131.1 MB to 131.1 MB.
+Total: 3.927400 ms (FindLiveObjects: 0.247000 ms CreateObjectMapping: 0.233300 ms MarkObjects: 3.392500 ms  DeleteObjects: 0.052900 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:scripting/monoscript/fileName/AvoidedObstacleCounter.cs: 569869b4b508c2232fa022106ee713de -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/precompiled-assembly-types:Assembly-CSharp: 0766c132bcf4a0125021fa0d8c4e0897 -> 7264056c74508b87110f76072e2a34f6
+========================================================================
+Received Prepare
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.507 seconds
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.089 seconds
+Domain Reload Profiling: 1591ms
+	BeginReloadAssembly (168ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (32ms)
+	RebuildCommonClasses (38ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (44ms)
+	LoadAllAssembliesAndSetupDomain (240ms)
+		LoadAssemblies (311ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (24ms)
+			TypeCache.Refresh (8ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (6ms)
+			ResolveRequiredComponents (8ms)
+	FinalizeReload (1089ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (527ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (11ms)
+			SetLoadedEditorAssemblies (6ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (66ms)
+			ProcessInitializeOnLoadAttributes (411ms)
+			ProcessInitializeOnLoadMethodAttributes (24ms)
+			AfterProcessingInitializeOnLoad (9ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (8ms)
+Refreshing native plugins compatible for Editor in 3.98 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3102 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 14 unused Assets / (28.5 KB). Loaded Objects now: 3633.
+Memory consumption went from 131.1 MB to 131.1 MB.
+Total: 2.558000 ms (FindLiveObjects: 0.269900 ms CreateObjectMapping: 0.263900 ms MarkObjects: 1.989200 ms  DeleteObjects: 0.034200 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:scripting/monoscript/fileName/AvoidedObstacleCounter.cs: 569869b4b508c2232fa022106ee713de -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/precompiled-assembly-types:Assembly-CSharp: 0766c132bcf4a0125021fa0d8c4e0897 -> 7264056c74508b87110f76072e2a34f6
+========================================================================
+Received Prepare
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.434 seconds
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.980 seconds
+Domain Reload Profiling: 1411ms
+	BeginReloadAssembly (159ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (31ms)
+	RebuildCommonClasses (32ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (31ms)
+	LoadAllAssembliesAndSetupDomain (198ms)
+		LoadAssemblies (277ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (12ms)
+			TypeCache.Refresh (5ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (5ms)
+	FinalizeReload (980ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (478ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (7ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (62ms)
+			ProcessInitializeOnLoadAttributes (377ms)
+			ProcessInitializeOnLoadMethodAttributes (19ms)
+			AfterProcessingInitializeOnLoad (8ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (6ms)
+Refreshing native plugins compatible for Editor in 5.25 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3102 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 14 unused Assets / (28.5 KB). Loaded Objects now: 3636.
+Memory consumption went from 131.1 MB to 131.1 MB.
+Total: 3.657600 ms (FindLiveObjects: 0.518300 ms CreateObjectMapping: 0.328300 ms MarkObjects: 2.773600 ms  DeleteObjects: 0.036200 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:scripting/monoscript/fileName/AvoidedObstacleCounter.cs: 569869b4b508c2232fa022106ee713de -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/precompiled-assembly-types:Assembly-CSharp: 0766c132bcf4a0125021fa0d8c4e0897 -> 7264056c74508b87110f76072e2a34f6
+========================================================================
+Received Prepare
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.440 seconds
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.009 seconds
+Domain Reload Profiling: 1446ms
+	BeginReloadAssembly (153ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (29ms)
+	RebuildCommonClasses (36ms)
+	RebuildNativeTypeToScriptingClass (13ms)
+	initialDomainReloadingComplete (32ms)
+	LoadAllAssembliesAndSetupDomain (203ms)
+		LoadAssemblies (276ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (15ms)
+			TypeCache.Refresh (5ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (8ms)
+	FinalizeReload (1010ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (508ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (7ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (66ms)
+			ProcessInitializeOnLoadAttributes (395ms)
+			ProcessInitializeOnLoadMethodAttributes (27ms)
+			AfterProcessingInitializeOnLoad (10ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (9ms)
+Refreshing native plugins compatible for Editor in 4.80 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3102 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 14 unused Assets / (28.5 KB). Loaded Objects now: 3639.
+Memory consumption went from 131.1 MB to 131.1 MB.
+Total: 3.523800 ms (FindLiveObjects: 0.373300 ms CreateObjectMapping: 0.295500 ms MarkObjects: 2.811300 ms  DeleteObjects: 0.042500 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:scripting/monoscript/fileName/AvoidedObstacleCounter.cs: 569869b4b508c2232fa022106ee713de -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/precompiled-assembly-types:Assembly-CSharp: 0766c132bcf4a0125021fa0d8c4e0897 -> 7264056c74508b87110f76072e2a34f6
+========================================================================
+Received Prepare
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.439 seconds
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.131 seconds
+Domain Reload Profiling: 1567ms
+	BeginReloadAssembly (149ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (31ms)
+	RebuildCommonClasses (31ms)
+	RebuildNativeTypeToScriptingClass (17ms)
+	initialDomainReloadingComplete (29ms)
+	LoadAllAssembliesAndSetupDomain (209ms)
+		LoadAssemblies (272ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (17ms)
+			TypeCache.Refresh (7ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (8ms)
+	FinalizeReload (1132ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (600ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (9ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (69ms)
+			ProcessInitializeOnLoadAttributes (475ms)
+			ProcessInitializeOnLoadMethodAttributes (31ms)
+			AfterProcessingInitializeOnLoad (11ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (10ms)
+Refreshing native plugins compatible for Editor in 6.93 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3102 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 14 unused Assets / (28.5 KB). Loaded Objects now: 3642.
+Memory consumption went from 131.1 MB to 131.1 MB.
+Total: 3.799500 ms (FindLiveObjects: 0.318300 ms CreateObjectMapping: 0.314800 ms MarkObjects: 3.124900 ms  DeleteObjects: 0.040600 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:scripting/monoscript/fileName/AvoidedObstacleCounter.cs: 569869b4b508c2232fa022106ee713de -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/precompiled-assembly-types:Assembly-CSharp: 0766c132bcf4a0125021fa0d8c4e0897 -> 7264056c74508b87110f76072e2a34f6
+========================================================================
+Received Prepare
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.455 seconds
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.088 seconds
+Domain Reload Profiling: 1540ms
+	BeginReloadAssembly (165ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (29ms)
+	RebuildCommonClasses (34ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (34ms)
+	LoadAllAssembliesAndSetupDomain (208ms)
+		LoadAssemblies (289ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (15ms)
+			TypeCache.Refresh (7ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (6ms)
+	FinalizeReload (1088ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (568ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (9ms)
+			SetLoadedEditorAssemblies (5ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (78ms)
+			ProcessInitializeOnLoadAttributes (435ms)
+			ProcessInitializeOnLoadMethodAttributes (29ms)
+			AfterProcessingInitializeOnLoad (11ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (9ms)
+Refreshing native plugins compatible for Editor in 5.20 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3102 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 14 unused Assets / (28.5 KB). Loaded Objects now: 3645.
+Memory consumption went from 131.1 MB to 131.1 MB.
+Total: 3.861100 ms (FindLiveObjects: 0.396100 ms CreateObjectMapping: 0.339400 ms MarkObjects: 3.081500 ms  DeleteObjects: 0.043100 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:scripting/monoscript/fileName/AvoidedObstacleCounter.cs: 569869b4b508c2232fa022106ee713de -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/precompiled-assembly-types:Assembly-CSharp: 0766c132bcf4a0125021fa0d8c4e0897 -> 7264056c74508b87110f76072e2a34f6
+========================================================================
+Received Prepare
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.448 seconds
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.045 seconds
+Domain Reload Profiling: 1490ms
+	BeginReloadAssembly (169ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (6ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (39ms)
+	RebuildCommonClasses (33ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (34ms)
+	LoadAllAssembliesAndSetupDomain (198ms)
+		LoadAssemblies (274ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (12ms)
+			TypeCache.Refresh (5ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (5ms)
+	FinalizeReload (1045ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (533ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (6ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (64ms)
+			ProcessInitializeOnLoadAttributes (420ms)
+			ProcessInitializeOnLoadMethodAttributes (30ms)
+			AfterProcessingInitializeOnLoad (10ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (9ms)
+Refreshing native plugins compatible for Editor in 4.74 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3102 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 14 unused Assets / (28.6 KB). Loaded Objects now: 3648.
+Memory consumption went from 131.1 MB to 131.1 MB.
+Total: 3.551400 ms (FindLiveObjects: 0.377200 ms CreateObjectMapping: 0.362000 ms MarkObjects: 2.771100 ms  DeleteObjects: 0.040000 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:scripting/monoscript/fileName/AvoidedObstacleCounter.cs: 569869b4b508c2232fa022106ee713de -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/precompiled-assembly-types:Assembly-CSharp: 0766c132bcf4a0125021fa0d8c4e0897 -> 7264056c74508b87110f76072e2a34f6
+TcpMessagingSession - receive error
+AssetImportWorkerClient::OnTransportError - code=10054 error=Istniej¹ce po³¹czenie zosta³o gwa³townie zamkniête przez zdalnego hosta.
