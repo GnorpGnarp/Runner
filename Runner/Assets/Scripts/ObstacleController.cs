@@ -25,8 +25,11 @@ public class ObstacleController : MonoBehaviour
             }
             else
             {
-                // Player doesn't have a shield, game over or damage logic
-                Time.timeScale = 0; // Stop the game (optional, you might trigger a game over UI)
+                // Player doesn't have a shield, trigger damage
+                playerController.TakeDamage(); // Call TakeDamage from PlayerController
+
+                // Optionally, destroy the obstacle after the player takes damage
+                Destroy(gameObject); // Destroy the obstacle
             }
         }
     }

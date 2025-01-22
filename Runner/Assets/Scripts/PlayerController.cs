@@ -1,51 +1,49 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.Rendering;
 
 public class PlayerController : MonoBehaviour
 {
-    public float moveSpeed = 2f; //Predkosc przesuwania gracza na boki
-
-    public Animator animator; //referencja do animatora
-
+    public float moveSpeed = 2f;
+    public Animator animator;
     public int points = 0;
-
     public GameObject shieldGameObject;
-
     public bool playerHasShield = false;
-
     public AudioClip jumpSound;
     public AudioSource jumpAudioSource;
-
     public AudioSource soundTrackAudioSource;
     public AudioClip backgroundMusic;
-
     public int level = 0;
 
+    public int maxHealth = 2; // Total number of hearts (can be adjusted)
+    public int currentHealth; // Current health of the player
 
-    // Start is called before the first frame update
+    private Material currentMaterial; // To store the current material
+    private SkinnedMeshRenderer skinnedMeshRenderer;
+    private Color originalColor;
+    private Color emissionColor = Color.blue; // Emission color when the shield is active
+
     void Start()
     {
-        shieldGameObject.SetActive(false);
-        playerHasShield = false;
+        skinnedMeshRenderer = GetComponentInChildren<SkinnedMeshRenderer>();
+        currentHealth = maxHealth; // Set the initial health
+
+        // Ensure the material is an instance (not shared)
+        if (skinnedMeshRenderer != null)
+        {
+            currentMaterial = new Material(skinnedMeshRenderer.material);
+            skinnedMeshRenderer.material = currentMaterial;
+            originalColor = currentMaterial.color;  // Store the original color
+        }
     }
 
-    // Update is called once per frame
     void Update()
     {
         if (level == 0)
         {
-            if (Input.GetKey(KeyCode.A)) //Jezeli wcisniemy przycisk A
+            if (Input.GetKey(KeyCode.A))
             {
-                if (transform.position.x > -0.5f) // Jezeli pozycja gracza w osi X jest wiêksza od -4 to wykonaj to co wewnatrz     || oznacza "lub"
+                if (transform.position.x > -0.5f)
                 {
-                    //Wykonuje sie to jezeli warunek jest spe³niony
-                    transform.Translate(Vector3.left * Time.deltaTime * moveSpeed); //transform.Translate przesuwa obiekt o Vector
-                }
-                else // Jezeli warunek nie jest spelniony
-                {
-                    // Tutaj wykonuja sie te rzeczy
+                    transform.Translate(Vector3.left * Time.deltaTime * moveSpeed);
                 }
             }
 
@@ -58,45 +56,61 @@ public class PlayerController : MonoBehaviour
             }
         }
 
-        if (level == 1)
+        if (Input.GetKeyDown(KeyCode.Space))
         {
-            if (Input.GetKey(KeyCode.A)) //Jezeli wcisniemy przycisk A
+            animator.Play("Jump");
+
+            if (!jumpAudioSource.isPlaying)
             {
-                if (transform.position.x > -64f) // Jezeli pozycja gracza w osi X jest wiêksza od -4 to wykonaj to co wewnatrz     || oznacza "lub"
-                {
-                    //Wykonuje sie to jezeli warunek jest spe³niony
-                    transform.Translate(Vector3.left * Time.deltaTime * moveSpeed); //transform.Translate przesuwa obiekt o Vector
-                }
-                else // Jezeli warunek nie jest spelniony
-                {
-                    // Tutaj wykonuja sie te rzeczy
-                }
-            }
-
-            if (Input.GetKey(KeyCode.D))
-            {
-                if (transform.position.x < -56f)
-                {
-                    transform.Translate(Vector3.right * Time.deltaTime * moveSpeed);
-                }
-            }
-        }
-
-
-
-        if (Input.GetKeyDown(KeyCode.Space)) 
-        {
-            animator.Play("Jump"); //Animator ma w³¹czyc animacje ze stanu o nazwie "Jump"
-
-            if (jumpAudioSource.isPlaying) // sprawdzenie czy jumpAudioSource odtwarza jakis dzwiek
-            {
-                // Jezeli tak 
-            }
-            else
-            {
-                // jezeli nie 
                 jumpAudioSource.PlayOneShot(jumpSound);
             }
+        }
+    }
+
+    public void TakeDamage()
+    {
+        if (currentHealth > 0)
+        {
+            currentHealth--;
+            // Call the UIManager to update health UI
+            FindObjectOfType<UIManager>().UpdateHealthUI(currentHealth);
+
+            if (currentHealth <= 0)
+            {
+                // Player is out of hearts, handle game over logic here
+                Debug.Log("Game Over!");
+                // Optionally add a game over screen or reset
+            }
+        }
+    }
+
+    // Turn on the emission for the material
+    public void EnableEmission()
+    {
+        if (currentMaterial != null)
+        {
+            Debug.Log("Enabling Emission...");
+            // Ensure the emission keyword is enabled
+            currentMaterial.EnableKeyword("_EMISSION");
+            // Set the emission color to white
+            currentMaterial.SetColor("_EmissionColor", Color.white);
+            // Apply Dynamic GI to update emissive lighting in the scene
+            DynamicGI.SetEmissive(skinnedMeshRenderer, Color.white);
+        }
+    }
+
+    // Turn off the emission for the material
+    public void DisableEmission()
+    {
+        if (currentMaterial != null)
+        {
+            Debug.Log("Disabling Emission...");
+            // Disable emission keyword
+            currentMaterial.DisableKeyword("_EMISSION");
+            // Reset the emission color to black (no emission)
+            currentMaterial.SetColor("_EmissionColor", Color.black);
+            // Update the GI lighting system to reflect changes
+            DynamicGI.SetEmissive(skinnedMeshRenderer, Color.black);
         }
     }
 }

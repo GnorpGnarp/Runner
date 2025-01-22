@@ -12,13 +12,14 @@ public class UIManager : MonoBehaviour
     public TMP_Text backgroundPoints;
 
     public Image shieldIcon;
-    
+    public Image hp1Image; // Reference to the first heart image
+    public Image hp2Image; // Reference to the second heart image
 
     // Start is called before the first frame update
     void Start()
     {
         shieldIcon.enabled = false;
-       
+        UpdateHealthUI(playerController.currentHealth);
     }
 
     // Update is called once per frame
@@ -33,5 +34,22 @@ public class UIManager : MonoBehaviour
     {
         return shieldIcon.enabled;
     }
+    public void UpdateHealthUI(int currentHealth)
+    {
+        if (currentHealth == 2)
+        {
+            hp1Image.enabled = true;
+            hp2Image.enabled = true;
+        }
+        else if (currentHealth == 1)
+        {
+            hp1Image.enabled = true;
+            hp2Image.enabled = false;
+        }
+        else if (currentHealth == 0)
+        {
+            hp1Image.enabled = false;
+            hp2Image.enabled = false;
+        }
+    }
 }
-
