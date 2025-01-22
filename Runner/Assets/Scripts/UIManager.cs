@@ -5,11 +5,12 @@ using UnityEngine.UI;
 public class UIManager : MonoBehaviour
 {
     public PlayerController playerController;
-    public TMP_Text playerPointsText; // This will display the score, which can also represent avoided obstacles
+    public TMP_Text playerPointsText; // This will display the score
 
     public Image shieldIcon;
     public Image hp1Image;
     public Image hp2Image;
+    public ScoreManager scoreManager; // Reference to the ScoreManager
 
     void Start()
     {
@@ -19,8 +20,8 @@ public class UIManager : MonoBehaviour
 
     void Update()
     {
-        // Display the player's points (which also represents the number of avoided obstacles)
-        playerPointsText.text = "Score: " + playerController.points.ToString();
+        // Display the player's points (score) from ScoreManager
+        playerPointsText.text = "Score: " + Mathf.Floor(scoreManager.score).ToString();
     }
 
     public void UpdateHealthUI(int currentHealth)

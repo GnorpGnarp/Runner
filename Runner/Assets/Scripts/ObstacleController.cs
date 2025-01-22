@@ -4,11 +4,12 @@ public class ObstacleController : MonoBehaviour
 {
     public PlayerController playerController; // Reference to the player controller
     public UIManager uiManager;
+    public ScoreManager scoreManager; // Reference to ScoreManager (add this)
 
-    // Start is called before the first frame update
     void Start()
     {
         playerController = GameObject.Find("Player").GetComponent<PlayerController>();
+        scoreManager = GameObject.FindObjectOfType<ScoreManager>(); // Ensure the reference is set
     }
 
     // Handle obstacle collision
@@ -27,6 +28,9 @@ public class ObstacleController : MonoBehaviour
             {
                 // Player doesn't have a shield, trigger damage
                 playerController.TakeDamage(); // Call TakeDamage from PlayerController
+
+                // Call the ScoreManager to pause the score when the player hits an obstacle
+                scoreManager.PauseScore(); // Pause the score
 
                 // Optionally, destroy the obstacle after the player takes damage
                 Destroy(gameObject); // Destroy the obstacle
