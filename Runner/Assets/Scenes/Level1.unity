@@ -2368,6 +2368,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   playerController: {fileID: 1456373680}
   uiManager: {fileID: 2051530145}
+  scoreManager: {fileID: 0}
 --- !u!1001 &137429332
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3876,6 +3877,134 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 5401331254644708158, guid: 2735768faf04dbb4d95d7523b2a00772, type: 3}
   m_PrefabInstance: {fileID: 206983459}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &208138989
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 208138991}
+  - component: {fileID: 208138990}
+  m_Layer: 0
+  m_Name: Universfield - Happy Twist
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!82 &208138990
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 208138989}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 24300002, guid: 396450e9a606a9041b03a0cb78b974d3, type: 2}
+  m_audioClip: {fileID: 8300000, guid: c81bd9afa681b7545840f52050b0656b, type: 3}
+  m_PlayOnAwake: 1
+  m_Volume: 0.906
+  m_Pitch: 1
+  Loop: 1
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+--- !u!4 &208138991
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 208138989}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &212818693
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -8132,6 +8261,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   playerController: {fileID: 1456373680}
   uiManager: {fileID: 2051530145}
+  scoreManager: {fileID: 0}
 --- !u!1001 &414164079
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -12370,6 +12500,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   playerController: {fileID: 1456373680}
   uiManager: {fileID: 2051530145}
+  scoreManager: {fileID: 0}
 --- !u!1001 &671918817
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -14347,6 +14478,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   playerController: {fileID: 1456373680}
   uiManager: {fileID: 2051530145}
+  scoreManager: {fileID: 0}
 --- !u!1001 &780822690
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -15002,6 +15134,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   playerController: {fileID: 1456373680}
   uiManager: {fileID: 2051530145}
+  scoreManager: {fileID: 0}
 --- !u!1001 &822952601
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -15643,6 +15776,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   playerController: {fileID: 1456373680}
   uiManager: {fileID: 2051530145}
+  scoreManager: {fileID: 0}
 --- !u!1001 &842632933
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -18044,6 +18178,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   playerController: {fileID: 1456373680}
   uiManager: {fileID: 2051530145}
+  scoreManager: {fileID: 0}
 --- !u!1001 &975924894
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -19023,6 +19158,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   playerController: {fileID: 1456373680}
   uiManager: {fileID: 2051530145}
+  scoreManager: {fileID: 0}
 --- !u!1001 &1017179673
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -20072,6 +20208,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   playerController: {fileID: 1456373680}
   uiManager: {fileID: 2051530145}
+  scoreManager: {fileID: 0}
 --- !u!1 &1068112073 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 6288980135709742268, guid: 5cd6e561453c047459a8a7f1156b1a5c, type: 3}
@@ -20091,6 +20228,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   playerController: {fileID: 1456373680}
   uiManager: {fileID: 2051530145}
+  scoreManager: {fileID: 0}
 --- !u!1001 &1070787778
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -20438,6 +20576,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   playerController: {fileID: 1456373680}
   uiManager: {fileID: 2051530145}
+  scoreManager: {fileID: 0}
 --- !u!1 &1089981703 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 6322683610893943212, guid: cd9759bbb48a404478ed22bde023e8c5, type: 3}
@@ -21092,6 +21231,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   playerController: {fileID: 1456373680}
   uiManager: {fileID: 2051530145}
+  scoreManager: {fileID: 0}
 --- !u!1 &1117363819
 GameObject:
   m_ObjectHideFlags: 0
@@ -21472,6 +21612,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   playerController: {fileID: 1456373680}
   uiManager: {fileID: 2051530145}
+  scoreManager: {fileID: 0}
 --- !u!1001 &1132745969
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -22938,6 +23079,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   playerController: {fileID: 1456373680}
   uiManager: {fileID: 2051530145}
+  scoreManager: {fileID: 0}
 --- !u!1001 &1212015598
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -23095,6 +23237,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   playerController: {fileID: 1456373680}
   uiManager: {fileID: 2051530145}
+  scoreManager: {fileID: 0}
 --- !u!1001 &1217420367
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -23464,6 +23607,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   playerController: {fileID: 1456373680}
   uiManager: {fileID: 2051530145}
+  scoreManager: {fileID: 0}
 --- !u!1001 &1242232924
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -24165,6 +24309,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   playerController: {fileID: 1456373680}
   uiManager: {fileID: 2051530145}
+  scoreManager: {fileID: 0}
 --- !u!1001 &1297107799
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -25736,6 +25881,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   playerController: {fileID: 1456373680}
   uiManager: {fileID: 2051530145}
+  scoreManager: {fileID: 0}
 --- !u!1001 &1362932851
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -27024,6 +27170,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   playerController: {fileID: 1456373680}
   uiManager: {fileID: 2051530145}
+  scoreManager: {fileID: 0}
 --- !u!1001 &1422183239
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -27567,6 +27714,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   playerController: {fileID: 1456373680}
   uiManager: {fileID: 2051530145}
+  scoreManager: {fileID: 0}
 --- !u!1001 &1456373675
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -28448,13 +28596,42 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 733b720185050ed47bfb1455fbbf2b72, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1474733306}
   m_SourcePrefab: {fileID: 100100000, guid: 733b720185050ed47bfb1455fbbf2b72, type: 3}
 --- !u!4 &1474733304 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 733b720185050ed47bfb1455fbbf2b72, type: 3}
   m_PrefabInstance: {fileID: 1474733303}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1474733305 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 733b720185050ed47bfb1455fbbf2b72, type: 3}
+  m_PrefabInstance: {fileID: 1474733303}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &1474733306
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1474733305}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 8.847606, y: 5.842881, z: 2.2758427}
+  m_Center: {x: -0.03260904, y: 0.4905949, z: -0.6379208}
 --- !u!1001 &1477498288
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -28682,6 +28859,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   playerController: {fileID: 1456373680}
   uiManager: {fileID: 2051530145}
+  scoreManager: {fileID: 0}
 --- !u!1001 &1493865485
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -30316,6 +30494,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   playerController: {fileID: 1456373680}
   uiManager: {fileID: 2051530145}
+  scoreManager: {fileID: 0}
 --- !u!1001 &1618599428
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -31534,6 +31713,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   playerController: {fileID: 1456373680}
   uiManager: {fileID: 2051530145}
+  scoreManager: {fileID: 0}
 --- !u!1001 &1699820762
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -33114,6 +33294,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   playerController: {fileID: 1456373680}
   uiManager: {fileID: 2051530145}
+  scoreManager: {fileID: 0}
 --- !u!1 &1798341754
 GameObject:
   m_ObjectHideFlags: 0
@@ -33641,6 +33822,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   playerController: {fileID: 1456373680}
   uiManager: {fileID: 2051530145}
+  scoreManager: {fileID: 0}
 --- !u!1001 &1838694433
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -34256,6 +34438,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   playerController: {fileID: 1456373680}
   uiManager: {fileID: 2051530145}
+  scoreManager: {fileID: 0}
 --- !u!1001 &1875872240
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -34685,6 +34868,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   playerController: {fileID: 1456373680}
   uiManager: {fileID: 2051530145}
+  scoreManager: {fileID: 0}
 --- !u!1001 &1891595364
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -35118,6 +35302,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   playerController: {fileID: 1456373680}
   uiManager: {fileID: 2051530145}
+  scoreManager: {fileID: 0}
 --- !u!1001 &1904293343
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -35775,6 +35960,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   playerController: {fileID: 1456373680}
   uiManager: {fileID: 2051530145}
+  scoreManager: {fileID: 0}
 --- !u!1001 &1937275154
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -36247,6 +36433,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   playerController: {fileID: 1456373680}
   uiManager: {fileID: 2051530145}
+  scoreManager: {fileID: 0}
 --- !u!1001 &1962263984
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -36538,6 +36725,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   playerController: {fileID: 1456373680}
   uiManager: {fileID: 2051530145}
+  scoreManager: {fileID: 0}
 --- !u!1001 &1977265932
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -36963,6 +37151,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   playerController: {fileID: 1456373680}
   uiManager: {fileID: 2051530145}
+  scoreManager: {fileID: 0}
 --- !u!1001 &1985363642
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -37202,6 +37391,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   playerController: {fileID: 1456373680}
   uiManager: {fileID: 2051530145}
+  scoreManager: {fileID: 0}
 --- !u!1001 &1990374438
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -37646,6 +37836,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   playerController: {fileID: 1456373680}
   uiManager: {fileID: 2051530145}
+  scoreManager: {fileID: 0}
 --- !u!1001 &2007966909
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -38222,6 +38413,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   playerController: {fileID: 1456373680}
   uiManager: {fileID: 2051530145}
+  scoreManager: {fileID: 0}
 --- !u!1001 &2030584971
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -39634,6 +39826,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   playerController: {fileID: 1456373680}
   uiManager: {fileID: 2051530145}
+  scoreManager: {fileID: 0}
 --- !u!1 &2106453574
 GameObject:
   m_ObjectHideFlags: 0
@@ -40842,6 +41035,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   playerController: {fileID: 1456373680}
   uiManager: {fileID: 2051530145}
+  scoreManager: {fileID: 0}
 --- !u!1001 &2145914815
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -41101,6 +41295,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   playerController: {fileID: 1456373680}
   uiManager: {fileID: 2051530145}
+  scoreManager: {fileID: 0}
 --- !u!1001 &2068870051428956922
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -41343,6 +41538,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   playerController: {fileID: 1456373680}
   uiManager: {fileID: 2051530145}
+  scoreManager: {fileID: 0}
 --- !u!1001 &7568310666001611085
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -41472,3 +41668,4 @@ SceneRoots:
   - {fileID: 1158819017}
   - {fileID: 2051530149}
   - {fileID: 1456373675}
+  - {fileID: 208138991}

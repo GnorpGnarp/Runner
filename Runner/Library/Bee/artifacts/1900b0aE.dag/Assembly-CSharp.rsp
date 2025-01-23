@@ -354,7 +354,9 @@
 -analyzer:"C:/Program Files/Unity/Hub/Editor/2022.3.51f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.SourceGenerators.dll"
 "Assets/Scripts/ColliderFollowPlayer.cs"
 "Assets/Scripts/CollisionDetect.cs"
+"Assets/Scripts/GameOverController.cs"
 "Assets/Scripts/GroundController.cs"
+"Assets/Scripts/MainMenu.cs"
 "Assets/Scripts/MetaController.cs"
 "Assets/Scripts/ObstacleController.cs"
 "Assets/Scripts/PlayerController.cs"
@@ -362,6 +364,7 @@
 "Assets/Scripts/ShieldManager.cs"
 "Assets/Scripts/ShieldPickupController.cs"
 "Assets/Scripts/UIManager.cs"
+"Assets/Scripts/VictoryManager.cs"
 -langversion:9.0
 /deterministic
 /optimize+
