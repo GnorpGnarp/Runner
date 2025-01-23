@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class PlayerController : MonoBehaviour
 {
@@ -18,8 +19,7 @@ public class PlayerController : MonoBehaviour
 
     private Material currentMaterial; // To store the current material
     private SkinnedMeshRenderer skinnedMeshRenderer;
-    private Color originalColor;
-    private Color emissionColor = Color.blue; // Emission color when the shield is active
+
 
     void Start()
     {
@@ -31,7 +31,7 @@ public class PlayerController : MonoBehaviour
         {
             currentMaterial = new Material(skinnedMeshRenderer.material);
             skinnedMeshRenderer.material = currentMaterial;
-            originalColor = currentMaterial.color;  // Store the original color
+            
         }
     }
 
@@ -79,38 +79,9 @@ public class PlayerController : MonoBehaviour
             {
                 // Player is out of hearts, handle game over logic here
                 Debug.Log("Game Over!");
+                SceneManager.LoadScene("gameover");
                 // Optionally add a game over screen or reset
             }
-        }
-    }
-
-    // Turn on the emission for the material
-    public void EnableEmission()
-    {
-        if (currentMaterial != null)
-        {
-            Debug.Log("Enabling Emission...");
-            // Ensure the emission keyword is enabled
-            currentMaterial.EnableKeyword("_EMISSION");
-            // Set the emission color to white
-            currentMaterial.SetColor("_EmissionColor", Color.white);
-            // Apply Dynamic GI to update emissive lighting in the scene
-            DynamicGI.SetEmissive(skinnedMeshRenderer, Color.white);
-        }
-    }
-
-    // Turn off the emission for the material
-    public void DisableEmission()
-    {
-        if (currentMaterial != null)
-        {
-            Debug.Log("Disabling Emission...");
-            // Disable emission keyword
-            currentMaterial.DisableKeyword("_EMISSION");
-            // Reset the emission color to black (no emission)
-            currentMaterial.SetColor("_EmissionColor", Color.black);
-            // Update the GI lighting system to reflect changes
-            DynamicGI.SetEmissive(skinnedMeshRenderer, Color.black);
         }
     }
 }

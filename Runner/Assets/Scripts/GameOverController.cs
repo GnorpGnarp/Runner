@@ -8,7 +8,7 @@ public class GameOverMenu : MonoBehaviour
 {
     public Button restartButton; // Link your restart button here in the Inspector
     public Button mainMenuButton; // Link your main menu button here in the Inspector
-
+    public ScoreManager scoreManager;
     void Start()
     {
         // Check if buttons are assigned, then add listeners
@@ -25,6 +25,10 @@ public class GameOverMenu : MonoBehaviour
 
     public void OnRestartButtonClicked()
     {
+        if (scoreManager != null)
+        {
+            scoreManager.ResetScore(); // Reset the score
+        }
         Debug.Log("Restart Button Clicked!");
         SceneManager.LoadScene(PlayerPrefs.GetInt("LastLevel")); // Restart the last level
    

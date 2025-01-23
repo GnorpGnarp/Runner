@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class ScoreManager : MonoBehaviour
 {
@@ -41,4 +42,21 @@ public class ScoreManager : MonoBehaviour
         isPaused = false;
         timeSinceHit = 0f; // Reset the time counter when resuming
     }
+    private void Awake()
+    {
+        // If an instance of ScoreManager already exists, destroy this one
+        if (FindObjectOfType<ScoreManager>() != this)
+        {
+            Destroy(gameObject); // Destroy duplicate
+        }
+        else
+        {
+            DontDestroyOnLoad(gameObject); // Keep this instance alive across scene loads
+        }
+    }
+    public void ResetScore()
+    {
+        score = 0f; // Reset the score to 0
+    }
+
 }

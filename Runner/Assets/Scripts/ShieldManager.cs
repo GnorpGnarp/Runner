@@ -65,9 +65,6 @@ public class ShieldManager : MonoBehaviour
         uiManager.shieldIcon.enabled = true;
         Debug.Log("Shield icon enabled.");
 
-        // Enable emission effect
-        playerController.EnableEmission();
-
         // Start the shield duration coroutine
         StartCoroutine(ShieldDuration());
     }
@@ -87,9 +84,6 @@ public class ShieldManager : MonoBehaviour
 
         // Hide the shield icon on the UI
         uiManager.shieldIcon.enabled = false;
-
-        // Disable emission effect
-        playerController.DisableEmission();
 
         // After deactivating the shield, you can safely disable the GameObject if needed
         this.gameObject.SetActive(false);
