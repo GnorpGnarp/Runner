@@ -355,6 +355,7 @@
 "Assets/Scripts/ColliderFollowPlayer.cs"
 "Assets/Scripts/CollisionDetect.cs"
 "Assets/Scripts/GameOverController.cs"
+"Assets/Scripts/GateCollision.cs"
 "Assets/Scripts/GroundController.cs"
 "Assets/Scripts/MainMenu.cs"
 "Assets/Scripts/MetaController.cs"
@@ -365,6 +366,7 @@
 "Assets/Scripts/ShieldPickupController.cs"
 "Assets/Scripts/UIManager.cs"
 "Assets/Scripts/VictoryManager.cs"
+"Assets/Scripts/VictoryUIManager.cs"
 -langversion:9.0
 /deterministic
 /optimize+
